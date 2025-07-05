@@ -2,12 +2,60 @@
   <img src="assets/logo.png" alt="Takım Logosu" width="200" />
 </p>
 
-# Takım Bilgisi
 
 ## Takım Adı
 <h2 align="center">✨ Grup 53 ✨</h2>
 
 ## Takım Üyeleri
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>İsim</th>
+      <th>Görevi</th>
+      <th>Sosyal Ağlar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="assets/ahmetfaki.jpg" alt="Ahmet Fakı" width="80" /></td>
+      <td>Ahmet Fakı</td>
+      <td>Scrum Master</td>
+      <td>
+        <a href="https://github.com/ahmet-faki"><img src="assets/github-logo.png" alt="GitHub" width="24" /></a>
+        <a href="https://www.linkedin.com/in/ahmetfaki/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="assets/gokhan.jpg" alt="Gökhan Yavuz" width="80" /></td>
+      <td>Gökhan Yavuz</td>
+      <td>Developer</td>
+      <td>
+        <a href="https://github.com/GokhanYavuzz"><img src="assets/github-logo.png" alt="GitHub" width="24" /></a>
+        <a href="https://www.linkedin.com/in/g%C3%B6khan-yavuz-835836280/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="assets/sumeyye.jpg" alt="Sümeyye Melek Yılmaz" width="80" /></td>
+      <td>Sümeyye Melek Yılmaz</td>
+      <td>Developer</td>
+      <td>
+        <a href="https://github.com/sumeyyemelekyilmaz"><img src="assets/github-logo.png" alt="GitHub" width="24" /></a>
+        <a href="https://www.linkedin.com/in/smelekyilmaz/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="assets/zeynep.jpg" alt="Zeynep Hendem" width="80" /></td>
+      <td>Zeynep Hendem</td>
+      <td>Product Owner</td>
+      <td>
+        <a href="https://github.com/zeynephendem"><img src="assets/github-logo.png" alt="GitHub" width="24" /></a>
+        <a href="https://www.linkedin.com/in/zeynephendem"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24" /></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 |   | İsim                       | Görevi         | Sosyal Ağlar                                                                              |
 |---|----------------------------|----------------|------------------------------------------------------------------------------------------|
