@@ -4,16 +4,56 @@
 
 
 ## Takım Adı
-### Grup 53</summary>
+### Parlayan Yıldızlar ✨ </summary>
 
 ## Takım Üyeleri
-|   | İsim                       | Görevi         | Sosyal Ağlar                                                                              |
-|---|----------------------------|----------------|------------------------------------------------------------------------------------------|
-| <img src="assets/ahmetfaki.jpg" alt="Ahmet Fakı" width="80" /> | **Ahmet Fakı** | Scrum Master | [<img src="assets/github-logo.png" alt="GitHub" width="24"/>](https://github.com/ahmet-faki) [<img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/>](https://www.linkedin.com/in/ahmetfaki/) |
-| <img src="assets/gokhan.jpg" alt="Gökhan Yavuz" width="80" />  | **Gökhan Yavuz** | Developer | [<img src="assets/github-logo.png" alt="GitHub" width="24"/>](https://github.com/GokhanYavuzz) [<img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/>](https://www.linkedin.com/in/g%C3%B6khan-yavuz-835836280/) |
-| <img src="assets/sumeyye.jpg" alt="Sümeyye Melek Yılmaz" width="80" /> | **Sümeyye Melek Yılmaz** | Developer | [<img src="assets/github-logo.png" alt="GitHub" width="24"/>](https://github.com/sumeyyemelekyilmaz) [<img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/>](https://www.linkedin.com/in/smelekyilmaz/) |
-| <img src="assets/zeynep.jpg" alt="Zeynep Hendem" width="80" /> | **Zeynep Hendem** | Product Owner | [<img src="assets/github-logo.png" alt="GitHub" width="24"/>](https://github.com/zeynephendem) [<img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/>](https://www.linkedin.com/in/zeynephendem) |
+<table>
+  <thead>
+    <tr>
+      <th>İsim</th>
+      <th>Görevi</th>
+      <th>Sosyal Ağlar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ahmet Fakı</td>
+      <td>Scrum Master</td>
+      <td>
+        <a href="https://github.com/ahmet-faki"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a>
+        <a href="https://www.linkedin.com/in/ahmetfaki/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Gökhan Yavuz</td>
+      <td>Developer</td>
+      <td>
+        <a href="https://github.com/GokhanYavuzz"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a>
+        <a href="https://www.linkedin.com/in/g%C3%B6khan-yavuz-835836280/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Sümeyye Melek Yılmaz</td>
+      <td>Developer</td>
+      <td>
+        <a href="https://github.com/sumeyyemelekyilmaz"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a>
+        <a href="https://www.linkedin.com/in/smelekyilmaz/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Zeynep Hendem</td>
+      <td>Product Owner</td>
+      <td>
+        <a href="https://github.com/zeynephendem"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a>
+        <a href="https://www.linkedin.com/in/zeynephendem"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
+
+## Ürün Adı
+### calmAI</summary>
 
 ## Ürün Açıklaması
 
@@ -23,11 +63,22 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 <summary><h2>Ürün Özellikleri</h2></summary>
 
 <ul>
-  <li><strong>Kişiselleştirilmiş Chatbot Sohbetleri:</strong> Kullanıcıların mevcut stres seviyelerini anlayan ve buna göre destekleyici sohbet deneyimleri sunan akıllı chatbotlar.</li>
-  <li><strong>Topluluk Sohbet Alanı:</strong> Benzer stres durumlarını yaşayan kullanıcıların deneyimlerini paylaşarak destek ve motivasyon bulabilecekleri interaktif sohbet ortamı.</li>
+  <li><strong>Kişiselleştirilmiş Chatbot Sohbetleri:</strong> Kullanıcılar, girişte yaptıkları kısa bir stres seviyesi değerlendirmesi sonrasında kendilerine en uygun sohbet botuyla eşleştirilir. Chatbotlar, kullanıcının duygu durumuna duyarlı şekilde yapılandırılmış, motive edici, empatik ve yönlendirici yanıtlarla kullanıcıya eşlik eder. Sohbetler, bilgilendirici içerikler ve gevşeme tekniklerine dair önerilerle desteklenir.</li>
+  
+  <li><strong>Topluluk Sohbet Alanı:</strong> Platform, kullanıcıların birbirleriyle anonim olarak sohbet edebilecekleri ve deneyimlerini paylaşabilecekleri bir topluluk alanı sunar. Bu bölümde kullanıcılar yalnız olmadıklarını hisseder, duygusal destek bulur ve başkalarının baş etme stratejilerinden ilham alabilir.</li>
+  
   <li><strong>Özelleştirilmiş Tavsiyeler:</strong> Kullanıcıların stres seviyelerine göre hazırlanan rahatlatıcı içerikler, yazılar ve özel müzik listeleri ile kullanıcıların stres seviyelerini düşürmelerine yardımcı olur.</li>
-  <li><strong>Gizlilik ve Güvenlik:</strong> Kullanıcıların kişisel verileri ve gizliliği korunarak güvenilir ve güvenli bir kullanım deneyimi sağlanır.</li>
-  <li><strong>Açık Kaynak Geliştirme:</strong> Proje açık kaynak olarak geliştirilmektedir ve topluluk katılımına açık olarak sürekli geliştirilmeye devam eder.</li>
+  
+  <li><strong>Gizlilik ve Güvenlik:</strong> Kullanıcıların kişisel bilgileri toplanmaz. Sohbetler anonim olarak gerçekleştirilir ve tüm veri akışı kullanıcı gizliliğini koruyacak şekilde şifrelenir. Platform, güvenli bir deneyim sunmak üzere tasarlanmıştır. </li>
+  
+  <li><strong>Açık Kaynak Geliştirme:</strong> Proje açık kaynak olarak geliştirilmektedir ve sürekli olarak geliştirilmeye devam eder.</li>
 </ul>
+
+</details>
+
+<details>
+<summary><h2>Hedef Kitle</h2></summary>
+
+<p>calmAI, özellikle stresle baş etmede desteğe ihtiyaç duyan bireyleri hedeflemektedir. Yoğun iş temposuna sahip çalışanlar, sınav stresi yaşayan öğrenciler, günlük yaşamın baskılarıyla mücadele eden gençler ve yetişkinler, dijital yollarla duygusal rahatlama arayan herkes bu platformdan faydalanabilir. Teknolojiye aşina olan kullanıcıların yanı sıra sade ve sezgisel tasarımı sayesinde dijital deneyimi sınırlı olan bireyler için de erişilebilir bir yapı sunar. Kullanıcıların anonim olarak güvenli bir ortamda destek bulabilecekleri bu platform, herkesin kendi stres düzeyine uygun çözümlerle buluşmasını amaçlar.</p>
 
 </details>
