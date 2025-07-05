@@ -2,16 +2,20 @@
   <img src="assets/logo.png" alt="Takım Logosu" width="200" />
 </p>
 
-# calmAI Takımı
+# Takım Bilgisi
+
+## Takım Adı
+<h2 align="center">✨ Grup 53 ✨</h2>
 
 ## Takım Üyeleri
 
-|   | İsim                       | Görevi         | Sosyal Ağlar                                                                                                                                                                  |
-|---|----------------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="assets/ahmetfaki.jpg" alt="Ahmet Fakı" width="80" /> | **Ahmet Fakı** | Scrum Ustası | [![GitHub](https://img.shields.io/badge/GitHub-ahmet--faki-black?logo=github&logoColor=white)](https://github.com/ahmet-faki) <br/> [![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmetfaki-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmetfaki/) |
-| <img src="assets/gokhan.jpg" alt="Gökhan Yavuz" width="80" />  | **Gökhan Yavuz** | Ürün Sahibi | [![GitHub](https://img.shields.io/badge/GitHub-GokhanYavuzz-black?logo=github&logoColor=white)](https://github.com/GokhanYavuzz) <br/> [![LinkedIn](https://img.shields.io/badge/LinkedIn-g%C3%B6khan--yavuz--835836280-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/g%C3%B6khan-yavuz-835836280/) |
-| <img src="assets/sumeyye.jpg" alt="Sümeyye Melek Yılmaz" width="80" /> | **Sümeyye Melek Yılmaz** | Geliştirici | [![GitHub](https://img.shields.io/badge/GitHub-sumeyyemelekyilmaz-black?logo=github&logoColor=white)](https://github.com/sumeyyemelekyilmaz) <br/> [![LinkedIn](https://img.shields.io/badge/LinkedIn-smelekyilmaz-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/smelekyilmaz/) |
-| <img src="assets/zeynep.jpg" alt="Zeynep Hendem" width="80" /> | **Zeynep Hendem** | Geliştirici | [![GitHub](https://img.shields.io/badge/GitHub-zeynephendem-black?logo=github&logoColor=white)](https://github.com/zeynephendem) <br/> [![LinkedIn](https://img.shields.io/badge/LinkedIn-zeynephendem-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zeynephendem) |
+|   | İsim                       | Görevi         | Sosyal Ağlar                                                                              |
+|---|----------------------------|----------------|------------------------------------------------------------------------------------------|
+| <img src="assets/ahmetfaki.jpg" alt="Ahmet Fakı" width="80" /> | **Ahmet Fakı** | Scrum Ustası | [<img src="assets/github-logo.png" alt="GitHub" width="24"/>](https://github.com/ahmet-faki) [<img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/>](https://www.linkedin.com/in/ahmetfaki/) |
+| <img src="assets/gokhan.jpg" alt="Gökhan Yavuz" width="80" />  | **Gökhan Yavuz** | Ürün Sahibi | [<img src="assets/github-logo.png" alt="GitHub" width="24"/>](https://github.com/GokhanYavuzz) [<img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/>](https://www.linkedin.com/in/g%C3%B6khan-yavuz-835836280/) |
+| <img src="assets/sumeyye.jpg" alt="Sümeyye Melek Yılmaz" width="80" /> | **Sümeyye Melek Yılmaz** | Geliştirici | [<img src="assets/github-logo.png" alt="GitHub" width="24"/>](https://github.com/sumeyyemelekyilmaz) [<img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/>](https://www.linkedin.com/in/smelekyilmaz/) |
+| <img src="assets/zeynep.jpg" alt="Zeynep Hendem" width="80" /> | **Zeynep Hendem** | Geliştirici | [<img src="assets/github-logo.png" alt="GitHub" width="24"/>](https://github.com/zeynephendem) [<img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/>](https://www.linkedin.com/in/zeynephendem) |
+
 
 ## Ürün Açıklaması
 
