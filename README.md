@@ -17,10 +17,9 @@
 
 calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi azaltmalarına yardımcı olacak etkileşimli ve kullanıcı dostu bir web sitesidir. Sitemizde yer alan akıllı chatbotlar sayesinde kullanıcılar kendi stres seviyelerine göre özel sohbetler gerçekleştirebilir, anlık psikolojik destek alabilir ve benzer deneyimleri yaşayan diğer kişilerle güvenli ve samimi bir ortamda iletişim kurabilirler. Aynı zamanda, kullanıcıların stres seviyelerine uygun rahatlatıcı tavsiyeler ve müzik önerileri sunularak stresle başa çıkma süreçleri desteklenir.
 
-## Ürün Özellikleri
 
 <details>
-<summary><strong>Ürün Özellikleri</strong> (tıklayınız)</summary>
+<summary><strong>Ürün Özellikleri</strong></summary>
 
 - **Kişiselleştirilmiş Chatbot Sohbetleri:** Kullanıcıların mevcut stres seviyelerini anlayan ve buna göre destekleyici sohbet deneyimleri sunan akıllı chatbotlar.
 - **Topluluk Sohbet Alanı:** Benzer stres durumlarını yaşayan kullanıcıların deneyimlerini paylaşarak destek ve motivasyon bulabilecekleri interaktif sohbet ortamı.
@@ -30,9 +29,3 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 
 </details>
 
-
-Kullanıcıların kişisel verileri ve gizliliği korunarak güvenilir ve güvenli bir kullanım deneyimi sağlanır.
-
-### Açık Kaynak Geliştirme:
-
-Proje açık kaynak olarak geliştirilmektedir ve topluluk katılımına açık olarak sürekli geliştirilmeye devam eder.
