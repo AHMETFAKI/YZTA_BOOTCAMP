@@ -17,15 +17,15 @@
 
 calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi azaltmalarına yardımcı olacak etkileşimli ve kullanıcı dostu bir web sitesidir. Sitemizde yer alan akıllı chatbotlar sayesinde kullanıcılar kendi stres seviyelerine göre özel sohbetler gerçekleştirebilir, anlık psikolojik destek alabilir ve benzer deneyimleri yaşayan diğer kişilerle güvenli ve samimi bir ortamda iletişim kurabilirler. Aynı zamanda, kullanıcıların stres seviyelerine uygun rahatlatıcı tavsiyeler ve müzik önerileri sunularak stresle başa çıkma süreçleri desteklenir.
 
-
 <details>
-<summary><strong>Ürün Özellikleri</strong></summary>
+<summary><h2>Ürün Özellikleri</h2></summary>
 
-- **Kişiselleştirilmiş Chatbot Sohbetleri:** Kullanıcıların mevcut stres seviyelerini anlayan ve buna göre destekleyici sohbet deneyimleri sunan akıllı chatbotlar.
-- **Topluluk Sohbet Alanı:** Benzer stres durumlarını yaşayan kullanıcıların deneyimlerini paylaşarak destek ve motivasyon bulabilecekleri interaktif sohbet ortamı.
-- **Özelleştirilmiş Tavsiyeler:** Kullanıcıların stres seviyelerine göre hazırlanan rahatlatıcı içerikler, yazılar ve özel müzik listeleri ile kullanıcıların stres seviyelerini düşürmelerine yardımcı olur.
-- **Gizlilik ve Güvenlik:** Kullanıcıların kişisel verileri ve gizliliği korunarak güvenilir ve güvenli bir kullanım deneyimi sağlanır.
-- **Açık Kaynak Geliştirme:** Proje açık kaynak olarak geliştirilmektedir ve topluluk katılımına açık olarak sürekli geliştirilmeye devam eder.
+<ul>
+  <li><strong>Kişiselleştirilmiş Chatbot Sohbetleri:</strong> Kullanıcıların mevcut stres seviyelerini anlayan ve buna göre destekleyici sohbet deneyimleri sunan akıllı chatbotlar.</li>
+  <li><strong>Topluluk Sohbet Alanı:</strong> Benzer stres durumlarını yaşayan kullanıcıların deneyimlerini paylaşarak destek ve motivasyon bulabilecekleri interaktif sohbet ortamı.</li>
+  <li><strong>Özelleştirilmiş Tavsiyeler:</strong> Kullanıcıların stres seviyelerine göre hazırlanan rahatlatıcı içerikler, yazılar ve özel müzik listeleri ile kullanıcıların stres seviyelerini düşürmelerine yardımcı olur.</li>
+  <li><strong>Gizlilik ve Güvenlik:</strong> Kullanıcıların kişisel verileri ve gizliliği korunarak güvenilir ve güvenli bir kullanım deneyimi sağlanır.</li>
+  <li><strong>Açık Kaynak Geliştirme:</strong> Proje açık kaynak olarak geliştirilmektedir ve topluluk katılımına açık olarak sürekli geliştirilmeye devam eder.</li>
+</ul>
 
 </details>
-
