@@ -4,9 +4,18 @@
 
 
 ## Takım Adı
-### Parlayan Yıldızlar ✨ 
+### Parlayan Yıldızlar ✨ </summary>
 
 ## Takım Üyeleri
+
+## Takım Üyeleri
+
+- **Ahmet Fakı** — Scrum Master — [GitHub](https://github.com/ahmet-faki) · [LinkedIn](https://www.linkedin.com/in/ahmetfaki/)  
+- **Gökhan Yavuz** — Developer — [GitHub](https://github.com/GokhanYavuzz) · [LinkedIn](https://www.linkedin.com/in/g%C3%B6khan-yavuz-835836280/)  
+- **Sümeyye Melek Yılmaz** — Developer — [GitHub](https://github.com/sumeyyemelekyilmaz) · [LinkedIn](https://www.linkedin.com/in/smelekyilmaz/)  
+- **Zeynep Hendem** — Product Owner — [GitHub](https://github.com/zeynephendem) · [LinkedIn](https://www.linkedin.com/in/zeynephendem)  
+
+
 <table>
   <thead>
     <tr>
