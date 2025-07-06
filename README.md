@@ -41,3 +41,64 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 <p>calmAI, özellikle stresle baş etmede desteğe ihtiyaç duyan bireyleri hedeflemektedir. Yoğun iş temposuna sahip çalışanlar, sınav stresi yaşayan öğrenciler, günlük yaşamın baskılarıyla mücadele eden gençler ve yetişkinler, dijital yollarla duygusal rahatlama arayan herkes bu platformdan faydalanabilir. Teknolojiye aşina olan kullanıcıların yanı sıra sade ve sezgisel tasarımı sayesinde dijital deneyimi sınırlı olan bireyler için de erişilebilir bir yapı sunar. Kullanıcıların anonim olarak güvenli bir ortamda destek bulabilecekleri bu platform, herkesin kendi stres düzeyine uygun çözümlerle buluşmasını amaçlar.</p>
 
 </details>
+
+
+##  Sprint 1 (20 Haziran – 6 Temmuz)
+
+###  Gerçekleştirilenler
+- [x] Takım tanışması ve proje fikirleri beyin fırtınası
+- [x] CalmAI proje fikrinin seçilmesi
+- [x] Roller ve görev dağılımı yapılması
+- [x] GitHub repository oluşturulması
+- [x] Teknoloji yığını belirlenmesi (FastAPI, Jinja2, SQLite, OpenAI API)
+- [x] Kullanıcı senaryoları planlandı
+- [x] Toplantı notları ve ekran görüntüleri alındı
+
+###  Henüz Yapılmayanlar
+- [ ] Kodlama başlangıcı
+- [ ] UI tasarımının oluşturulması
+- [ ] Miro üzerinden dijital scrum panosu kurulması
+- [ ] Prototip üretimi
+
+---
+
+##  Teknoloji Yığını
+
+- Python (FastAPI)
+- Jinja2 + HTML (Temel arayüz için)
+- SQLite (Veri tabanı)
+- OpenAI / LLM API
+- Git & GitHub
+- Miro (Scrum yönetimi için)
+- Vercel veya Docker (Deployment planı)
+
+---
+
+##  Kullanıcı Senaryosu
+
+> “Kendini bugün nasıl hissediyorsun?” sorusuyla kullanıcıya yaklaşan sistem, ruh hâlini analiz ederek yapay zekâ destekli empatik yanıtlar sunar. Geçmiş sohbetler veritabanında tutulur ve sistem, kullanıcıyla kurduğu geçmiş diyaloğu hatırlayabilir.
+
+---
+
+##  Yapılan Toplantılar
+
+| Tarih | Başlık |
+|-------|--------|
+| 20 Haziran | Tanışma & Bootcamp Kuralları |
+| 25 Haziran | Proje Fikri Geliştirme |
+| 3 Temmuz | Roller ve Yol Haritası Belirleme |
+
+---
+
+
+##  Gelecek Planlar
+
+| Sprint 2 Hedefleri |
+|--------------------|
+| Kodlama başlangıcı (API, veritabanı, HTML) |
+| .env ve requirements dosyalarının oluşturulması |
+| Temel chat arayüzünün hazırlanması |
+| Miro görev panosunun aktif kullanımı |
+| İlk demo ekranlarının sunulması |
+
+---
