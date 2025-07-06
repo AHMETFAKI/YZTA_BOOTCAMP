@@ -35,23 +35,6 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
   
 </details>
 
-</details>
-
-<details>
-  <summary><h2>Ürün Özellikleri</h2></summary>
-
-- **Kişiselleştirilmiş Chatbot Sohbetleri:** Kullanıcılar, girişte yaptıkları kısa bir stres seviyesi değerlendirmesi sonrasında kendilerine en uygun sohbet botuyla eşleştirilir. Chatbotlar kullanıcının duygu durumuna duyarlı şekilde yapılandırılmış, motive edici, empatik ve yönlendirici yanıtlarla kullanıcıya eşlik eder. Sohbetler, bilgilendirici içerikler ve gevşeme tekniklerine dair önerilerle desteklenir.
-
-- **Topluluk Sohbet Alanı:** Platform, kullanıcıların birbirleriyle anonim olarak sohbet edebilecekleri ve deneyimlerini paylaşabilecekleri bir topluluk alanı sunar. Bu bölümde kullanıcılar yalnız olmadıklarını hisseder, duygusal destek bulur ve başkalarının baş etme stratejilerinden ilham alabilir.
-
-- **Özelleştirilmiş Tavsiyeler:** Kullanıcıların stres seviyelerine göre hazırlanan rahatlatıcı içerikler, yazılar ve özel müzik listeleri ile kullanıcıların stres seviyelerini düşürmelerine yardımcı olur.
-
-- **Gizlilik ve Güvenlik:** Kullanıcıların kişisel bilgileri toplanmaz. Sohbetler anonim olarak gerçekleştirilir ve tüm veri akışı kullanıcı gizliliğini koruyacak şekilde şifrelenir. Platform, güvenli bir deneyim sunmak üzere tasarlanmıştır.
-
-- **Açık Kaynak Geliştirme:** Proje açık kaynak olarak geliştirilmektedir ve sürekli olarak geliştirilmeye devam eder.
-
-</details>
-
 <details>
 <summary><h2>Hedef Kitle</h2></summary>
 
