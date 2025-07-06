@@ -12,10 +12,10 @@
 
 | İsim                     | Görevi         | Sosyal Ağlar                                                                                                                       |
 |--------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------|
-| **Ahmet Fakı**           | Scrum Master   | <a href="https://github.com/ahmet-faki"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/ahmetfaki/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>  |
-| **Gökhan Yavuz**         | Developer      | <a href="https://github.com/GokhanYavuzz"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/g%C3%B6khan-yavuz-835836280/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>  |
-| **Sümeyye Melek Yılmaz** | Developer      | <a href="https://github.com/sumeyyemelekyilmaz"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/smelekyilmaz/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>  |
-| **Zeynep Hendem**        | Product Owner  | <a href="https://github.com/zeynephendem"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/zeynephendem"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>  |
+| ** Ahmet Fakı **           | Scrum Master   | <a href="https://github.com/ahmet-faki"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/ahmetfaki/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>  |
+| ** Gökhan Yavuz **         | Developer      | <a href="https://github.com/GokhanYavuzz"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/g%C3%B6khan-yavuz-835836280/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>  |
+| ** Sümeyye Melek Yılmaz ** | Developer      | <a href="https://github.com/sumeyyemelekyilmaz"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/smelekyilmaz/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>  |
+| ** Zeynep Hendem **        | Product Owner  | <a href="https://github.com/zeynephendem"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/zeynephendem"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>  |
 
 
 ## Takım Üyeleri
