@@ -4,7 +4,7 @@
 
 
 ## Takım Adı
-### Parlayan Yıldızlar ✨ </summary>
+### Parlayan Yıldızlar ✨ 
 
 ## Takım Üyeleri
 <table>
