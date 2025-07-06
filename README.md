@@ -21,14 +21,17 @@
 calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi azaltmalarına yardımcı olacak etkileşimli ve kullanıcı dostu bir web sitesidir. Sitemizde yer alan akıllı chatbotlar sayesinde kullanıcılar kendi stres seviyelerine göre özel sohbetler gerçekleştirebilir, anlık psikolojik destek alabilir ve benzer deneyimleri yaşayan diğer kişilerle güvenli ve samimi bir ortamda iletişim kurabilirler. Aynı zamanda, kullanıcıların stres seviyelerine uygun rahatlatıcı tavsiyeler ve müzik önerileri sunularak stresle başa çıkma süreçleri desteklenir.
 
 <details>
-<summary>Ürün Özellikleri</summary>
+<summary></h2>Ürün Özellikleri</h2></summary>
 
-- **Kişiselleştirilmiş Chatbot Sohbetleri:** Stres seviyesi değerlendirmesinden sonra duygu durumuna duyarlı, motive edici ve empatik yanıtlar.  
-- **Topluluk Sohbet Alanı:** Anonim deneyim paylaşımı ve duygusal destek bulma imkânı.  
-- **Özelleştirilmiş Tavsiyeler:** Stres seviyesine uygun makaleler, gevşeme teknikleri ve müzik listeleri.  
-- **Gizlilik ve Güvenlik:** Kişisel veri toplanmaz; sohbetler anonim ve uçtan uca şifrelenir.  
-- **Açık Kaynak Geliştirme:** Topluluk katkılı, sürekli güncellenen proje.  
-
+- **Kişiselleştirilmiş Chatbot Sohbetleri:** Kullanıcılar, girişte yaptıkları kısa bir stres seviyesi değerlendirmesi sonrasında kendilerine en uygun sohbet botuyla eşleştirilir. Chatbotlar kullanıcının duygu durumuna duyarlı şekilde yapılandırılmış, motive edici, empatik ve yönlendirici yanıtlarla kullanıcıya eşlik eder. Sohbetler, bilgilendirici içerikler ve gevşeme tekniklerine dair önerilerle desteklenir.
+- **Topluluk Sohbet Alanı:** Platform, kullanıcıların birbirleriyle anonim olarak sohbet edebilecekleri ve deneyimlerini paylaşabilecekleri bir topluluk alanı sunar. Bu bölümde kullanıcılar yalnız olmadıklarını hisseder, duygusal destek bulur ve başkalarının baş etme stratejilerinden ilham alabilir.
+- **Özelleştirilmiş Tavsiyeler:** Kullanıcının stres seviyesi ve kişisel ilgi alanlarına göre sistem tarafından dinamik olarak sunulan içerikler, hem zihinsel hem de duygusal rahatlamayı destekleyecek şekilde çeşitlendirilmiştir:
+ - Nefes egzersizleri ve gevşeme teknikleri: Anlık rahatlama sağlamaya yönelik yönlendirmeli nefes alma uygulamaları ve basit gevşeme yöntemleri.
+ - Rahatlatıcı kısa yazılar veya alıntılar: Kullanıcının içinde bulunduğu ruh hâline uygun olarak seçilen motive edici veya sakinleştirici içerikler.
+ - Ruh hâline uygun müzik listeleri: Duygu durumunu dengelemeye yardımcı olacak şekilde hazırlanmış, lofi, doğa sesleri, klasik müzik, ambient ve soft pop gibi kategorilerden oluşan özel listeler.
+ - Gündelik yaşam için küçük stres azaltıcı alışkanlık önerileri: Rutin içinde kolayca uygulanabilecek öneriler (örneğin, gün sonunda yürüyüş yapmak, dijital molalar vermek, günlük tutmak gibi) ile kullanıcıların stres düzeylerini düzenli olarak azaltmaları hedeflenir.
+- **Gizlilik ve Güvenlik:** Kullanıcıların kişisel bilgileri toplanmaz. Sohbetler anonim olarak gerçekleştirilir ve tüm veri akışı kullanıcı gizliliğini koruyacak şekilde şifrelenir. Platform, güvenli bir deneyim sunmak üzere tasarlanmıştır.
+- **Açık Kaynak Geliştirme:** calmAI, açık kaynaklı bir projedir. Yazılım geliştiriciler, tasarımcılar ve psikolojiye ilgi duyan katkıcılar, projeye GitHub üzerinden katkıda bulunabilir. Platformun sürdürülebilirliği ve gelişimi, topluluk desteğiyle ilerlemektedir.
 </details>
 
 </details>
