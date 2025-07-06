@@ -21,18 +21,34 @@
 calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi azaltmalarına yardımcı olacak etkileşimli ve kullanıcı dostu bir web sitesidir. Sitemizde yer alan akıllı chatbotlar sayesinde kullanıcılar kendi stres seviyelerine göre özel sohbetler gerçekleştirebilir, anlık psikolojik destek alabilir ve benzer deneyimleri yaşayan diğer kişilerle güvenli ve samimi bir ortamda iletişim kurabilirler. Aynı zamanda, kullanıcıların stres seviyelerine uygun rahatlatıcı tavsiyeler ve müzik önerileri sunularak stresle başa çıkma süreçleri desteklenir.
 
 <details>
-<summary></h2>Ürün Özellikleri</h2></summary>
+  <summary><h2>Ürün Özellikleri</h2></summary>
 
 - **Kişiselleştirilmiş Chatbot Sohbetleri:** Kullanıcılar, girişte yaptıkları kısa bir stres seviyesi değerlendirmesi sonrasında kendilerine en uygun sohbet botuyla eşleştirilir. Chatbotlar kullanıcının duygu durumuna duyarlı şekilde yapılandırılmış, motive edici, empatik ve yönlendirici yanıtlarla kullanıcıya eşlik eder. Sohbetler, bilgilendirici içerikler ve gevşeme tekniklerine dair önerilerle desteklenir.
+  
 - **Topluluk Sohbet Alanı:** Platform, kullanıcıların birbirleriyle anonim olarak sohbet edebilecekleri ve deneyimlerini paylaşabilecekleri bir topluluk alanı sunar. Bu bölümde kullanıcılar yalnız olmadıklarını hisseder, duygusal destek bulur ve başkalarının baş etme stratejilerinden ilham alabilir.
-- **Özelleştirilmiş Tavsiyeler:** Kullanıcının stres seviyesi ve kişisel ilgi alanlarına göre sistem tarafından dinamik olarak sunulan içerikler, hem zihinsel hem de duygusal rahatlamayı destekleyecek şekilde çeşitlendirilmiştir:
- - Nefes egzersizleri ve gevşeme teknikleri: Anlık rahatlama sağlamaya yönelik yönlendirmeli nefes alma uygulamaları ve basit gevşeme yöntemleri.
- - Rahatlatıcı kısa yazılar veya alıntılar: Kullanıcının içinde bulunduğu ruh hâline uygun olarak seçilen motive edici veya sakinleştirici içerikler.
- - Ruh hâline uygun müzik listeleri: Duygu durumunu dengelemeye yardımcı olacak şekilde hazırlanmış, lofi, doğa sesleri, klasik müzik, ambient ve soft pop gibi kategorilerden oluşan özel listeler.
- - Gündelik yaşam için küçük stres azaltıcı alışkanlık önerileri: Rutin içinde kolayca uygulanabilecek öneriler (örneğin, gün sonunda yürüyüş yapmak, dijital molalar vermek, günlük tutmak gibi) ile kullanıcıların stres düzeylerini düzenli olarak azaltmaları hedeflenir.
+  
+- **Özelleştirilmiş Tavsiyeler:** Kullanıcının stres seviyesi ve kişisel ilgi alanlarına göre sistem tarafından dinamik olarak sunulan içerikler, hem zihinsel hem de duygusal rahatlamayı destekleyecek şekilde çeşitlendirilmiştir. Bu kapsamda, anlık rahatlama sağlamaya yönelik yönlendirmeli nefes alma uygulamaları ve basit gevşeme yöntemleri içeren nefes egzersizleri sunulmaktadır. Kullanıcının içinde bulunduğu ruh hâline uygun olarak seçilen motive edici veya sakinleştirici içerikler arasında rahatlatıcı kısa yazılar ve alıntılar yer alır. Duygu durumunu dengelemeye yardımcı olacak şekilde hazırlanmış müzik listeleri ise lofi, doğa sesleri, klasik müzik, ambient ve soft pop gibi çeşitli kategorilerden oluşmaktadır. Ayrıca, kullanıcıların günlük yaşamlarında stres düzeylerini düzenli olarak azaltmalarını hedefleyen küçük ama etkili alışkanlık önerileri de platformda yer almaktadır. Bu öneriler arasında gün sonunda yürüyüş yapmak, dijital molalar vermek veya günlük tutmak gibi basit ama faydalı uygulamalar bulunmaktadır.
+
 - **Gizlilik ve Güvenlik:** Kullanıcıların kişisel bilgileri toplanmaz. Sohbetler anonim olarak gerçekleştirilir ve tüm veri akışı kullanıcı gizliliğini koruyacak şekilde şifrelenir. Platform, güvenli bir deneyim sunmak üzere tasarlanmıştır.
+  
 - **Açık Kaynak Geliştirme:** calmAI, açık kaynaklı bir projedir. Yazılım geliştiriciler, tasarımcılar ve psikolojiye ilgi duyan katkıcılar, projeye GitHub üzerinden katkıda bulunabilir. Platformun sürdürülebilirliği ve gelişimi, topluluk desteğiyle ilerlemektedir.
+  
 </details>
+
+</details>
+
+<details>
+  <summary><h2>Ürün Özellikleri</h2></summary>
+
+- **Kişiselleştirilmiş Chatbot Sohbetleri:** Kullanıcılar, girişte yaptıkları kısa bir stres seviyesi değerlendirmesi sonrasında kendilerine en uygun sohbet botuyla eşleştirilir. Chatbotlar kullanıcının duygu durumuna duyarlı şekilde yapılandırılmış, motive edici, empatik ve yönlendirici yanıtlarla kullanıcıya eşlik eder. Sohbetler, bilgilendirici içerikler ve gevşeme tekniklerine dair önerilerle desteklenir.
+
+- **Topluluk Sohbet Alanı:** Platform, kullanıcıların birbirleriyle anonim olarak sohbet edebilecekleri ve deneyimlerini paylaşabilecekleri bir topluluk alanı sunar. Bu bölümde kullanıcılar yalnız olmadıklarını hisseder, duygusal destek bulur ve başkalarının baş etme stratejilerinden ilham alabilir.
+
+- **Özelleştirilmiş Tavsiyeler:** Kullanıcıların stres seviyelerine göre hazırlanan rahatlatıcı içerikler, yazılar ve özel müzik listeleri ile kullanıcıların stres seviyelerini düşürmelerine yardımcı olur.
+
+- **Gizlilik ve Güvenlik:** Kullanıcıların kişisel bilgileri toplanmaz. Sohbetler anonim olarak gerçekleştirilir ve tüm veri akışı kullanıcı gizliliğini koruyacak şekilde şifrelenir. Platform, güvenli bir deneyim sunmak üzere tasarlanmıştır.
+
+- **Açık Kaynak Geliştirme:** Proje açık kaynak olarak geliştirilmektedir ve sürekli olarak geliştirilmeye devam eder.
 
 </details>
 
