@@ -14,7 +14,8 @@
 | **Sümeyye Melek Yılmaz** | Developer      | <a href="https://github.com/sumeyyemelekyilmaz"><img src="assets/github.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/smelekyilmaz/"><img src="assets/LinkedIn_logo_initials.png" alt="LinkedIn" width="24"/></a>  |
 | **Zeynep Hendem**        | Product Owner  | <a href="https://github.com/zeynephendem"><img src="assets/github.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/zeynephendem"><img src="assets/LinkedIn_logo_initials.png" alt="LinkedIn" width="24"/></a>  |
 
-**Ürün:** calmAI
+## Ürün Adı
+### calmAI 
 
 ## Ürün Açıklaması
 calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi azaltmalarına yardımcı olacak etkileşimli ve kullanıcı dostu bir web sitesidir. Sitemizde yer alan akıllı chatbotlar sayesinde kullanıcılar kendi stres seviyelerine göre özel sohbetler gerçekleştirebilir, anlık psikolojik destek alabilir ve benzer deneyimleri yaşayan diğer kişilerle güvenli ve samimi bir ortamda iletişim kurabilirler. Aynı zamanda, kullanıcıların stres seviyelerine uygun rahatlatıcı tavsiyeler ve müzik önerileri sunularak stresle başa çıkma süreçleri desteklenir.
