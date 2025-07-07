@@ -53,7 +53,13 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 
 <details>
   <summary><h2>Sprint 1 🚀 </h2></summary>
-  
+
+
+ - Sprint içinde tamamlanması tahmin edilen puan: 100 puan
+ - Tahmin mantığı: Proje boyunca toplamda tamamlanması planlanan 300 puanlık bir backlog oluşturulmuştur. Bu iş yükü üç sprint'e bölünerek dengeli ilerlenmesi hedeflenmiş, Sprint 1 için başlangıç puanı 100 olarak belirlenmiştir. İlk sprintte proje temeli atılmış, arayüz iskeleti çıkarılmış ve sistem entegrasyonları için teknik araştırmalar yapılmıştır.
+ - Daily Scrum toplantılarımız, Google Meet platformu üzerinden gerçekleştirilmiştir. Günlük gelişmeleri daha hızlı takip etmek için WhatsApp grubu üzerinden de iletişim kurulmuştur. Daily Scrum notları ve gün içi ilerlemeler ilgili klasörlerde ve Miro panosunda arşivlenmiştir.
+
+
 
 ### ✅ Sprint Review
 
@@ -80,17 +86,16 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 * Sade, erişilebilir ve yapay zekâ destekli bir sistem hedefi benimsendi.
 * Haftalık değerlendirme toplantıları yapılmasına karar verildi.
 
+### Teknoloji Yığını
 
-  ### Teknoloji Yığını
-
-  - **Python**: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.  
-  - **FastAPI**: Backend geliştirme sürecinde kullanılmak üzere seçildi.  
-  - **Jinja2 + HTML**: Temel arayüz tasarımları için kullanılacak.  
-  - **SQLite**: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek.  
-  - **Gemini API**: Yapay zekâ destekli chatbot sistemi için kullanılacak.  
-  - **Git & GitHub**: Sürüm kontrolü ve iş birliği için kullanılıyor.  
-  - **Miro**: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor.  
-  - **Vercel / Docker**: Deployment süreci için planlandı.  
+- **Python**: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.  
+- **FastAPI**: Backend geliştirme sürecinde kullanılmak üzere seçildi.  
+- **Jinja2 + HTML**: Temel arayüz tasarımları için kullanılacak.  
+- **SQLite**: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek.  
+- **Gemini API**: Yapay zekâ destekli chatbot sistemi için kullanılacak.  
+- **Git & GitHub**: Sürüm kontrolü ve iş birliği için kullanılıyor.  
+- **Miro**: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor.  
+- **Vercel / Docker**: Deployment süreci için planlandı.  
 
 </details>
 
