@@ -50,10 +50,11 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 <summary><h2>Pazarlama Alanı 📈 </h2></summary>
 calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla başa çıkmak isteyen bireyler için geliştirilen yapay zekâ destekli bir dijital destektir. Kullanıcıların ruh hâline duyarlı chatbotlarla kişiselleştirilmiş sohbetler gerçekleştirmesini sağlayan platform, aynı zamanda stres seviyelerine uygun müzik önerileri, motive edici içerikler ve anonim topluluk sohbet alanlarıyla duygusal rahatlama sunar. calmAI, sınav kaygısı yaşayan öğrencilerden iş hayatında tükenmişlik hisseden profesyonellere kadar geniş bir kitleye hitap eder. Sade ve kullanıcı dostu arayüzüyle dijital deneyimi sınırlı olan kullanıcılar için bile erişilebilir bir yapı sunan calmAI, “Kendini bugün nasıl hissediyorsun?” sorusuyla başlayan yolculukta kullanıcıya güvenli ve samimi bir alan açar. Sosyal medya, üniversite toplulukları, influencer iş birlikleri ve SEO odaklı blog içerikleriyle tanıtımı yapılması planlanan platform, zihinsel ve duygusal sağlığı dijital dünyada desteklemeyi hedefler.
 </details>
+--- 
 
-<details>
-  <summary><h2>Sprint 1 🚀 </h2></summary>
-
+## Sprint 1 🚀
+  
+### Sprint Notları
 - **Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
 - **Tahmin mantığı:** Proje boyunca toplamda tamamlanması planlanan 300 puanlık bir backlog oluşturulmuştur. Bu iş yükü üç sprint’e bölünerek dengeli ilerlenmesi hedeflenmiş, Sprint 1 için başlangıç puanı 100 olarak belirlenmiştir. İlk sprintte proje temeli atılmış, arayüz iskeleti çıkarılmış ve sistem entegrasyonları için teknik araştırmalar yapılmıştır.
 - **Daily Scrum toplantıları:** Google Meet üzerinden gerçekleştirilmiş; gün içi iletişim de WhatsApp grubu üzerinden sağlanmıştır. Notlar ve Miro panosundaki ilerlemeler ilgili klasörlerde arşivlenmiştir.
@@ -62,7 +63,7 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
   <img src="assets/Gemini_Generated_Image_5qxzf95qxzf95qxz.png" alt="Takım Logosu" width="300" />
 </p>
 
-- **Sprint Review**
+### Sprint Review
 
 * Ekip ilk kez bir araya gelerek tanışma süreci gerçekleştirdi. Her üye kendi yetkinliklerini ve ilgi alanlarını paylaşarak ekip içi uyum sağlandı.
 * CalmAI proje fikri beyin fırtınası sürecinde önerildi ve tüm ekip üyeleri tarafından olumlu bulunarak seçildi.
@@ -71,7 +72,7 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 * Kullanıcı senaryoları ve temel işlevler belirlendi.
 * Teknoloji yığını netleştirildi.
 
-- **Sprint Retrospective**
+### Sprint Retrospective
 
 * Ekip içerisinde görev dağılımı yapıldı.
 * Kodlama öncesi ihtiyaç analizleri tamamlandı.
@@ -79,7 +80,7 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 * Sade, erişilebilir ve yapay zekâ destekli bir sistem hedefi benimsendi.
 * Haftalık değerlendirme toplantıları yapılmasına karar verildi.
 
-- **Teknoloji Yığını**
+### Teknoloji Yığını
 
 - Python: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.  
 - FastAPI: Backend geliştirme sürecinde kullanılmak üzere seçildi.  
