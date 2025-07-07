@@ -44,11 +44,11 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 
 </details>
 
----
 
 <details>
   <summary><h2>Sprint 1</h2></summary>
-
+<details>
+---
 <details>
   <summary><h3>Teknoloji Yığını</h3></summary>
  - Python: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.
@@ -66,7 +66,7 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
  - Miro: Takım içi görev dağılımı, sprint planlaması ve dijital scrum panosu için görsel proje yönetimi aracı olarak kullanılmaktadır.
    
  - Vercel / Docker: Projenin ilerleyen aşamalarında deployment için kullanılmak üzere planlandı.
-
+<details>
 
 ---
 
@@ -76,25 +76,5 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 
 ---
 
-##  Yapılan Toplantılar
-
-| Tarih | Başlık |
-|-------|--------|
-| 20 Haziran | Tanışma & Bootcamp Kuralları |
-| 25 Haziran | Proje Fikri Geliştirme |
-| 3 Temmuz | Roller ve Yol Haritası Belirleme |
-
----
-
-
-##  Gelecek Planlar
-
-| Sprint 2 Hedefleri |
-|--------------------|
-| Kodlama başlangıcı (API, veritabanı, HTML) |
-| .env ve requirements dosyalarının oluşturulması |
-| Temel chat arayüzünün hazırlanması |
-| Miro görev panosunun aktif kullanımı |
-| İlk demo ekranlarının sunulması |
 
 ---
