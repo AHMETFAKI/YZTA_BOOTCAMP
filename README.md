@@ -51,6 +51,33 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 
 <details>
   <summary><h2>Sprint 1</h2></summary>
+  
+
+### ✅ Sprint Review
+
+* Ekip ilk kez bir araya gelerek tanışma süreci gerçekleştirdi. Her üye kendi yetkinliklerini ve ilgi alanlarını paylaşarak ekip içi uyum sağlandı.
+* CalmAI proje fikri beyin fırtınası sürecinde önerildi ve tüm ekip üyeleri tarafından olumlu bulunarak seçildi.
+* Takım rolleri belirlendi:
+
+  * **Ahmet Fakı**: Scrum Master
+  * **Zeynep Hendem**: Product Owner
+  * **Sümeyye Melek Yılmaz**: Developer
+  * **Gökhan Yavuz**: Developer
+* Proje iletişim düzeni ve görev takibi için kullanılan araçlar kararlaştırıldı (WhatsApp, GitHub, Miro).
+* Kullanıcı senaryoları ve temel işlevler belirlendi.
+* Teknoloji yığını netleştirildi:
+
+  * Python, FastAPI, Jinja2, SQLite, Gemini API
+* GitHub repository açıldı ve ilk toplantı notlarıyla birlikte ekran görüntüleri kaydedildi.
+
+### 🔄 Sprint Retrospective
+
+* Ekip içerisinde görev dağılımı yapıldı.
+* Kodlama öncesi ihtiyaç analizleri tamamlandı.
+* Görev takibi ve sprint yönetimi için Miro üzerinden dijital scrum panosu oluşturulmasına karar verildi.
+* Sade, erişilebilir ve yapay zekâ destekli bir sistem hedefi benimsendi.
+* Haftalık değerlendirme toplantıları yapılmasına karar verildi.
+
 
   ### Teknoloji Yığını
 
