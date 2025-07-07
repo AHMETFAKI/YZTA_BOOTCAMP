@@ -57,26 +57,21 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 - **Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
 - **Tahmin mantığı:** Proje boyunca toplamda tamamlanması planlanan 300 puanlık bir backlog oluşturulmuştur. Bu iş yükü üç sprint’e bölünerek dengeli ilerlenmesi hedeflenmiş, Sprint 1 için başlangıç puanı 100 olarak belirlenmiştir. İlk sprintte proje temeli atılmış, arayüz iskeleti çıkarılmış ve sistem entegrasyonları için teknik araştırmalar yapılmıştır.
 - **Daily Scrum toplantıları:** Google Meet üzerinden gerçekleştirilmiş; gün içi iletişim de WhatsApp grubu üzerinden sağlanmıştır. Notlar ve Miro panosundaki ilerlemeler ilgili klasörlerde arşivlenmiştir.
+- **Sprint Tahtası Ekran Görüntüsü**
+  <p align="left">
+  <img src="assets/Gemini_Generated_Image_5qxzf95qxzf95qxz.png" alt="Takım Logosu" width="300" />
+</p>
 
-
-### ✅ Sprint Review
+- **Sprint Review**
 
 * Ekip ilk kez bir araya gelerek tanışma süreci gerçekleştirdi. Her üye kendi yetkinliklerini ve ilgi alanlarını paylaşarak ekip içi uyum sağlandı.
 * CalmAI proje fikri beyin fırtınası sürecinde önerildi ve tüm ekip üyeleri tarafından olumlu bulunarak seçildi.
-* Takım rolleri belirlendi:
-
-  * **Ahmet Fakı**: Scrum Master
-  * **Zeynep Hendem**: Product Owner
-  * **Sümeyye Melek Yılmaz**: Developer
-  * **Gökhan Yavuz**: Developer
+* Takım rolleri belirlendi
 * Proje iletişim düzeni ve görev takibi için kullanılan araçlar kararlaştırıldı (WhatsApp, GitHub, Miro).
 * Kullanıcı senaryoları ve temel işlevler belirlendi.
-* Teknoloji yığını netleştirildi:
+* Teknoloji yığını netleştirildi.
 
-  * Python, FastAPI, Jinja2, SQLite, Gemini API
-* GitHub repository açıldı ve ilk toplantı notlarıyla birlikte ekran görüntüleri kaydedildi.
-
-### 🔄 Sprint Retrospective
+- **Sprint Retrospective**
 
 * Ekip içerisinde görev dağılımı yapıldı.
 * Kodlama öncesi ihtiyaç analizleri tamamlandı.
@@ -84,16 +79,16 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 * Sade, erişilebilir ve yapay zekâ destekli bir sistem hedefi benimsendi.
 * Haftalık değerlendirme toplantıları yapılmasına karar verildi.
 
-### Teknoloji Yığını
+- **Teknoloji Yığını**
 
-- **Python**: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.  
-- **FastAPI**: Backend geliştirme sürecinde kullanılmak üzere seçildi.  
-- **Jinja2 + HTML**: Temel arayüz tasarımları için kullanılacak.  
-- **SQLite**: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek.  
-- **Gemini API**: Yapay zekâ destekli chatbot sistemi için kullanılacak.  
-- **Git & GitHub**: Sürüm kontrolü ve iş birliği için kullanılıyor.  
-- **Miro**: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor.  
-- **Vercel / Docker**: Deployment süreci için planlandı.  
+- Python: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.  
+- FastAPI: Backend geliştirme sürecinde kullanılmak üzere seçildi.  
+- Jinja2 + HTML: Temel arayüz tasarımları için kullanılacak.  
+- SQLite: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek.  
+- Gemini API: Yapay zekâ destekli chatbot sistemi için kullanılacak.  
+- Git & GitHub: Sürüm kontrolü ve iş birliği için kullanılıyor.  
+- Miro: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor.  
+- Vercel / Docker: Deployment süreci için planlandı.  
 
 </details>
 
