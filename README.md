@@ -72,7 +72,7 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 - **Daily Scrum toplantıları:** Google Meet üzerinden gerçekleştirilmiş; gün içi iletişim de WhatsApp grubu üzerinden sağlanmıştır. Notlar ve Miro panosundaki ilerlemeler ilgili klasörlerde arşivlenmiştir.
 - **Sprint Tahtası Ekran Görüntüsü**:
   <p align="left">
-  <img src="assets/Ekran görüntüsü 2025-07-07 151248.png" alt="Takım Logosu" width="900" />
+  <img src="assets/Ekran görüntüsü 2025-07-07 151248.png" alt="Takım Logosu" width="700" />
 </p>
 
 <details>
@@ -84,6 +84,7 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 <p align="left">
   <img src="assets/sohbet ekranı.jpg" alt="Takım Logosu" width="700" />
 </p>
+<details>
 
 ### Teknoloji Yığını
 
