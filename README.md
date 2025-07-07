@@ -85,6 +85,12 @@ Sprint 1 boyunca ekip olarak güçlü bir iş birliği içinde çalıştık. Pro
  - Bazı günler bildirim gecikmeleri gözlendi ve Google Takvim hatırlatma sistemi değerlendirilmeye başlandı.
  - Notlar ve Miro panosundaki ilerlemeler ilgili klasörlerde arşivlendi.
 
+
+- **Sprint Board Ekran Görüntüsü**:
+  <p align="left">
+  <img src="assets/miross.jpg" alt="miro" width="900" />
+</p>
+
 <details>
 <summary><h2>Daily Scrum Ekran Görüntüleri</h2></summary>
 <p align="left">
@@ -95,11 +101,6 @@ Sprint 1 boyunca ekip olarak güçlü bir iş birliği içinde çalıştık. Pro
   <img src="assets/meet_1.png" alt="ekran görüntüsü" width="700" />
 </p>
 </details>
-
-- **Sprint Board Ekran Görüntüsü**:
-  <p align="left">
-  <img src="assets/miross.jpg" alt="Takım Logosu" width="700" />
-</p>
 
 ### Teknoloji Yığını
 Proje boyunca kullanmayı planladığımız teknolojiler:
