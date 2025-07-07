@@ -103,7 +103,7 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
       - **Miro**: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor. 📊
       - **Vercel / Docker**: Deployment süreci için planlandı. 🚢
 
-\</details\>
+
 
 -----
 
