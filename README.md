@@ -39,12 +39,19 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
   
 </details>
 
-<details>
-<summary><h2>Hedef Kitle 🎯 </h2></summary>
+## Hedef Kitle 🎯 
 
-<p>calmAI, özellikle stresle baş etmede desteğe ihtiyaç duyan bireyleri hedeflemektedir. Yoğun iş temposuna sahip çalışanlar, sınav stresi yaşayan öğrenciler, günlük yaşamın baskılarıyla mücadele eden gençler ve yetişkinler, dijital yollarla duygusal rahatlama arayan herkes bu platformdan faydalanabilir. Teknolojiye aşina olan kullanıcıların yanı sıra sade ve sezgisel tasarımı sayesinde dijital deneyimi sınırlı olan bireyler için de erişilebilir bir yapı sunar. Kullanıcıların anonim olarak güvenli bir ortamda destek bulabilecekleri bu platform, herkesin kendi stres düzeyine uygun çözümlerle buluşmasını amaçlar.</p>
+ - Yoğun iş temposuna sahip çalışanlar
 
-</details>
+ - Sınav stresi yaşayan öğrenciler
+
+ - Günlük yaşamın baskılarıyla mücadele eden gençler ve yetişkinler
+
+ - Dijital yollarla duygusal rahatlama arayan herkes
+
+ - Teknolojiye aşina kullanıcılar
+
+ - Dijital deneyimi sınırlı olan bireyler
 
 <details>
 <summary><h2>Pazarlama Alanı 📈 </h2></summary>
@@ -60,7 +67,7 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 - **Daily Scrum toplantıları:** Google Meet üzerinden gerçekleştirilmiş; gün içi iletişim de WhatsApp grubu üzerinden sağlanmıştır. Notlar ve Miro panosundaki ilerlemeler ilgili klasörlerde arşivlenmiştir.
 - **Sprint Tahtası Ekran Görüntüsü**
   <p align="left">
-  <img src="assets/Gemini_Generated_Image_5qxzf95qxzf95qxz.png" alt="Takım Logosu" width="300" />
+  <img src="assets/Ekran görüntüsü 2025-07-07 151248.png" alt="Takım Logosu" width="300" />
 </p>
 
 ### Sprint Review
