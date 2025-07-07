@@ -76,7 +76,7 @@ Sprint 1 boyunca ekip olarak güçlü bir iş birliği içinde çalıştık. Pro
   - Web sitesinin arayüz iskeleti hazırlandı.
   - Toplantı notları ve ekran görüntüleri arşivlenerek sprint 1 notları kaydedildi.
     
-**Tahminlenen Puan:** Sprint içinde tamamlanması tahmin edilen puan: 100 puan
+**Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
 
 **Tahmin Mantığı:** Toplamda 300 puanlık backlog, üç sprint’e bölünerek sprint başına 100 puanlık hedef belirlendi. İlk sprintte altyapı ve ön gereksinimler tamamlanarak puan hedefi karşılandı.
 
