@@ -44,7 +44,7 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 
 
 <details>
-  <summary><h2>Sprint 1</h2></summary>
+  <summary><h4>Sprint 1</h4></summary>
 
 
 ###  Gerçekleştirilenler
