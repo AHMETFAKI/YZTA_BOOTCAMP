@@ -14,6 +14,7 @@
 | **Sümeyye Melek Yılmaz** | Developer      | <a href="https://github.com/sumeyyemelekyilmaz"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/smelekyilmaz/"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>  |
 | **Zeynep Hendem**        | Product Owner  | <a href="https://github.com/zeynephendem"><img src="assets/github-logo.png" alt="GitHub" width="24"/></a> <a href="https://www.linkedin.com/in/zeynephendem"><img src="assets/linkedin-logo.png" alt="LinkedIn" width="24"/></a>  |
 
+
 ## Ürün Adı
 `calmAI`
 
@@ -44,6 +45,9 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 
 
 ##  Sprint 1 (20 Haziran – 6 Temmuz)
+<details>
+  <summary><h2>Sprint 1</h2></summary>
+
 
 ###  Gerçekleştirilenler
 - [x] Takım tanışması ve proje fikirleri beyin fırtınası
