@@ -44,7 +44,7 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 
 
 <details>
-  <summary><h4>Sprint 1</h4></summary>
+  <summary><h1>Sprint 1</h1></summary>
 
 
 ###  Gerçekleştirilenler
@@ -64,15 +64,23 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 
 ---
 
-##  Teknoloji Yığını
+## Kullanılan Teknolojiler
+ - Python: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.
 
-- Python (FastAPI)
-- Jinja2 + HTML (Temel arayüz için)
-- SQLite (Veri tabanı)
-- OpenAI / LLM API
-- Git & GitHub
-- Miro (Scrum yönetimi için)
-- Vercel veya Docker (Deployment planı)
+ - FastAPI: Backend geliştirme sürecinde kullanılmak üzere seçildi.
+
+ - Jinja2 + HTML: Temel arayüz tasarımları için kullanılacaktır.
+
+ - SQLite: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek.
+
+ - Gemini API: Yapay zekâ destekli chatbot sistemi için kullanılacak.
+
+ - Git & GitHub: Proje kodlarının sürüm kontrolü, takım içi iş birliği ve açık kaynaklı geliştirme süreçlerinin yürütülmesi amacıyla kullanılmaktadır.
+
+ - Miro: Takım içi görev dağılımı, sprint planlaması ve dijital scrum panosu için görsel proje yönetimi aracı olarak kullanılmaktadır.
+   
+ - Vercel / Docker: Projenin ilerleyen aşamalarında deployment için kullanılmak üzere planlandı.
+
 
 ---
 
