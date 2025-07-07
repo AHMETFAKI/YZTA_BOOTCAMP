@@ -92,19 +92,16 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 
   * Haftalık değerlendirme toplantıları yapılmasına karar verildi. 🗓
 
-    ### Teknoloji Yığını
+### Teknoloji Yığını
 
-      - **Python**: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak. 
-      - **FastAPI**: Backend geliştirme sürecinde kullanılmak üzere seçildi. ⚡
-      - **Jinja2 + HTML**: Temel arayüz tasarımları için kullanılacak. 
-      - **SQLite**: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek. 🗄
-      - **Gemini API**: Yapay zekâ destekli chatbot sistemi için kullanılacak. ✨
-      - **Git & GitHub**: Sürüm kontrolü ve iş birliği için kullanılıyor. 
-      - **Miro**: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor. 
-      - **Vercel / Docker**: Deployment süreci için planlandı. 
-
-
-
+- **Python**: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak. 
+- **FastAPI**: Backend geliştirme sürecinde kullanılmak üzere seçildi. ⚡
+- **Jinja2 + HTML**: Temel arayüz tasarımları için kullanılacak. 
+- **SQLite**: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek. 🗄
+- **Gemini API**: Yapay zekâ destekli chatbot sistemi için kullanılacak. ✨
+- **Git & GitHub**: Sürüm kontrolü ve iş birliği için kullanılıyor. 
+- **Miro**: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor. 
+- **Vercel / Docker**: Deployment süreci için planlandı. 
 -----
 
 ## Kullanıcı Senaryosu
