@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Giriş Yap - CalmAI</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #eef2f7; text-align: center; padding-top: 50px; }
+        .form-box {
+            background: white;
+            padding: 30px;
+            margin: auto;
+            width: 300px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, button {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #22c55e;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .error { color: red; font-size: 14px; margin-bottom: 10px; }
+        a {
+            text-decoration: none;
+            color: #22c55e;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-box">
+        <h2>CalmAI Giriş</h2>
+
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+
+        <form method="post">
+            <input type="email" name="email" placeholder="E-posta" required><br>
+            <input type="password" name="password" placeholder="Şifre" required><br>
+            <button type="submit">Giriş Yap</button>
+        </form>
+        <p>Hesabın yok mu? <a href="/register">Kayıt Ol</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}CalmAI{% endblock %}</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', sans-serif; background-color: #f8fafc; }
+        header {
+            background-color: #4f46e5;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+        footer {
+            text-align: center;
+            font-size: 14px;
+            color: #aaa;
+            padding: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        CalmAI — Dijital Refah Asistanı
+    </header>
+
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <footer>
+        &copy; 2025 CalmAI — Tüm Hakları Saklıdır.
+    </footer>
+
+</body>
+</html>

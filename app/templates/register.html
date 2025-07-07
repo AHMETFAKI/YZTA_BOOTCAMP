@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayıt Ol - CalmAI</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f4f8; text-align: center; padding-top: 50px; }
+        .form-box {
+            background: white;
+            padding: 30px;
+            margin: auto;
+            width: 300px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, button {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #4f46e5;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        a {
+            text-decoration: none;
+            color: #4f46e5;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-box">
+        <h2>CalmAI Kayıt</h2>
+        <form method="post">
+            <input type="email" name="email" placeholder="E-posta" required><br>
+            <input type="password" name="password" placeholder="Şifre" required><br>
+            <button type="submit">Kayıt Ol</button>
+        </form>
+        <p>Zaten üye misin? <a href="/login">Giriş Yap</a></p>
+    </div>
+</body>
+</html>

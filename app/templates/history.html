@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Geçmiş Sohbetler - CalmAI</title>
+    <style>
+        body { font-family: sans-serif; padding: 40px; background-color: #f1f5f9; }
+        h2 { color: #334155; }
+        .chat-block {
+            background-color: white;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .timestamp {
+            font-size: 13px;
+            color: #64748b;
+            margin-bottom: 8px;
+        }
+        .user-msg {
+            font-weight: bold;
+            color: #0f172a;
+        }
+        .ai-msg {
+            margin-top: 5px;
+            color: #475569;
+        }
+    </style>
+</head>
+<body>
+    <h2>Geçmiş Sohbetler</h2>
+
+    {% for msg in messages %}
+        <div class="chat-block">
+            <div class="timestamp">{{ msg.timestamp.strftime('%d.%m.%Y %H:%M') }}</div>
+            <div class="user-msg">Sen: {{ msg.user_input }}</div>
+            <div class="ai-msg">CalmAI: {{ msg.ai_response }}</div>
+        </div>
+    {% endfor %}
+
+</body>
+</html>
