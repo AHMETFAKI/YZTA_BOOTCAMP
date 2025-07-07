@@ -51,14 +51,14 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 <details>
 <summary><h2>Hedef Kitle</h2></summary>
 
-<p>calmAI, özellikle stresle baş etmede desteğe ihtiyaç duyan bireyleri hedeflemektedir. Yoğun iş temposuna sahip çalışanlar 💼, sınav stresi yaşayan öğrenciler 📚, günlük yaşamın baskılarıyla mücadele eden gençler ve yetişkinler 🧑‍🤝‍🧑, dijital yollarla duygusal rahatlama arayan herkes bu platformdan faydalanabilir. Teknolojiye aşina olan kullanıcıların yanı sıra sade ve sezgisel tasarımı sayesinde dijital deneyimi sınırlı olan bireyler için de erişilebilir bir yapı sunar. Kullanıcıların anonim olarak güvenli bir ortamda destek bulabilecekleri bu platform, herkesin kendi stres düzeyine uygun çözümlerle buluşmasını amaçlar. 🎯</p>
+<p>calmAI, özellikle stresle baş etmede desteğe ihtiyaç duyan bireyleri hedeflemektedir. Yoğun iş temposuna sahip çalışanlar , sınav stresi yaşayan öğrenciler , günlük yaşamın baskılarıyla mücadele eden gençler ve yetişkinler 🧑‍🤝‍🧑, dijital yollarla duygusal rahatlama arayan herkes bu platformdan faydalanabilir. Teknolojiye aşina olan kullanıcıların yanı sıra sade ve sezgisel tasarımı sayesinde dijital deneyimi sınırlı olan bireyler için de erişilebilir bir yapı sunar. Kullanıcıların anonim olarak güvenli bir ortamda destek bulabilecekleri bu platform, herkesin kendi stres düzeyine uygun çözümlerle buluşmasını amaçlar. 🎯</p>
 
 </details>
 
 <details>
 <summary><h2>Pazarlama Alanı</h2></summary>
   
-calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla başa çıkmak isteyen bireyler için geliştirilen yapay zekâ destekli bir dijital destektir. Kullanıcıların ruh hâline duyarlı chatbotlarla kişiselleştirilmiş sohbetler gerçekleştirmesini sağlayan platform, aynı zamanda stres seviyelerine uygun müzik önerileri 🎶, motive edici içerikler ve anonim topluluk sohbet alanlarıyla duygusal rahatlama sunar. calmAI, sınav kaygısı yaşayan öğrencilerden iş hayatında tükenmişlik hisseden profesyonellere kadar geniş bir kitleye hitap eder. Sade ve kullanıcı dostu arayüzüyle dijital deneyimi sınırlı olan kullanıcılar için bile erişilebilir bir yapı sunan calmAI, “Kendini bugün nasıl hissediyorsun? 🤔” sorusuyla başlayan yolculukta kullanıcıya güvenli ve samimi bir alan açar. Sosyal medya 📱, üniversite toplulukları 🏫, influencer iş birlikleri ve SEO odaklı blog içerikleriyle tanıtımı yapılması planlanan platform, zihinsel ve duygusal sağlığı dijital dünyada desteklemeyi hedefler. 🧠
+calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla başa çıkmak isteyen bireyler için geliştirilen yapay zekâ destekli bir dijital destektir. Kullanıcıların ruh hâline duyarlı chatbotlarla kişiselleştirilmiş sohbetler gerçekleştirmesini sağlayan platform, aynı zamanda stres seviyelerine uygun müzik önerileri 🎶, motive edici içerikler ve anonim topluluk sohbet alanlarıyla duygusal rahatlama sunar. calmAI, sınav kaygısı yaşayan öğrencilerden iş hayatında tükenmişlik hisseden profesyonellere kadar geniş bir kitleye hitap eder. Sade ve kullanıcı dostu arayüzüyle dijital deneyimi sınırlı olan kullanıcılar için bile erişilebilir bir yapı sunan calmAI, “Kendini bugün nasıl hissediyorsun? 🤔” sorusuyla başlayan yolculukta kullanıcıya güvenli ve samimi bir alan açar. Sosyal medya , üniversite toplulukları , influencer iş birlikleri ve SEO odaklı blog içerikleriyle tanıtımı yapılması planlanan platform, zihinsel ve duygusal sağlığı dijital dünyada desteklemeyi hedefler. 🧠
 </details>
 
 <details>
@@ -75,33 +75,33 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
       * **Sümeyye Melek Yılmaz**: Developer 👩‍💻
       * **Gökhan Yavuz**: Developer 🧑‍💻
   * Proje iletişim düzeni ve görev takibi için kullanılan araçlar kararlaştırıldı (WhatsApp 💬, GitHub 🐙, Miro 📊).
-  * Kullanıcı senaryoları ve temel işlevler belirlendi. 📝
+  * Kullanıcı senaryoları ve temel işlevler belirlendi. 
   * Teknoloji yığını netleştirildi:
       * Python, FastAPI, Jinja2, SQLite, Gemini API
-  * GitHub repository açıldı ve ilk toplantı notlarıyla birlikte ekran görüntüleri kaydedildi. 🚀
+  * GitHub repository açıldı ve ilk toplantı notlarıyla birlikte ekran görüntüleri kaydedildi. 
 
 ### 🔄 Sprint Retrospective
 
-  * Ekip içerisinde görev dağılımı yapıldı. 🧩
+  * Ekip içerisinde görev dağılımı yapıldı. 
 
   * Kodlama öncesi ihtiyaç analizleri tamamlandı. 🔍
 
-  * Görev takibi ve sprint yönetimi için Miro üzerinden dijital scrum panosu oluşturulmasına karar verildi. 📋
+  * Görev takibi ve sprint yönetimi için Miro üzerinden dijital scrum panosu oluşturulmasına karar verildi. 
 
   * Sade, erişilebilir ve yapay zekâ destekli bir sistem hedefi benimsendi. 🌟
 
-  * Haftalık değerlendirme toplantıları yapılmasına karar verildi. 🗓️
+  * Haftalık değerlendirme toplantıları yapılmasına karar verildi. 🗓
 
     ### Teknoloji Yığını
 
-      - **Python**: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak. 🐍
+      - **Python**: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak. 
       - **FastAPI**: Backend geliştirme sürecinde kullanılmak üzere seçildi. ⚡
-      - **Jinja2 + HTML**: Temel arayüz tasarımları için kullanılacak. 🎨
-      - **SQLite**: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek. 🗄️
+      - **Jinja2 + HTML**: Temel arayüz tasarımları için kullanılacak. 
+      - **SQLite**: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek. 🗄
       - **Gemini API**: Yapay zekâ destekli chatbot sistemi için kullanılacak. ✨
-      - **Git & GitHub**: Sürüm kontrolü ve iş birliği için kullanılıyor. 🐙
-      - **Miro**: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor. 📊
-      - **Vercel / Docker**: Deployment süreci için planlandı. 🚢
+      - **Git & GitHub**: Sürüm kontrolü ve iş birliği için kullanılıyor. 
+      - **Miro**: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor. 
+      - **Vercel / Docker**: Deployment süreci için planlandı. 
 
 
 
