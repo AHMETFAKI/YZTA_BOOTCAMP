@@ -92,7 +92,7 @@ Sprint 1 boyunca ekip olarak güçlü bir iş birliği içinde çalıştık. Pro
 </p>
 
 <p align="left">
-  <img src="assets/meet_1.jpg" alt="Takım Logosu" width="700" />
+  <img src="assets/meet_1.jpg" alt="ekran görüntüsü" width="700" />
 </p>
 </details>
 
