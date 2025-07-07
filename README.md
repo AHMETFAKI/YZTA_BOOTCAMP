@@ -31,6 +31,10 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
   
 - **Topluluk Sohbet Alanı:** Platform, kullanıcıların birbirleriyle anonim olarak sohbet edebilecekleri ve deneyimlerini paylaşabilecekleri bir topluluk alanı sunar. Bu bölümde kullanıcılar yalnız olmadıklarını hisseder, duygusal destek bulur ve başkalarının baş etme stratejilerinden ilham alabilir.
   
+- **Haftalık Stres Raporlaması:** Kullanıcıların hafta boyunca biriken stres seviyeleri grafiksel ve özet raporlarla sunulur, böylece kullanıcılar stres trendlerini takip edebilir ve ihtiyaç duyduklarında müdahale stratejilerini gözden geçirebilir.
+  
+- **Günlük Tutma Alanı:** Kullanıcılar duygularını, düşüncelerini ve deneyimlerini anonim bir günlük sayfasında yazabilir; bu sayede kendileriyle ve süreçleriyle ilgili farkındalık kazanır ve ilerlemelerini gözlemleyebilir.
+  
 - **Özelleştirilmiş Tavsiyeler:** Kullanıcının stres seviyesi ve kişisel ilgi alanlarına göre sistem tarafından dinamik olarak sunulan içerikler, hem zihinsel hem de duygusal rahatlamayı destekleyecek şekilde çeşitlendirilmiştir. Bu kapsamda, anlık rahatlama sağlamaya yönelik yönlendirmeli nefes alma uygulamaları ve basit gevşeme yöntemleri içeren nefes egzersizleri sunulmaktadır. Kullanıcının içinde bulunduğu ruh hâline uygun olarak seçilen motive edici veya sakinleştirici içerikler arasında rahatlatıcı kısa yazılar ve alıntılar yer alır. Duygu durumunu dengelemeye yardımcı olacak şekilde hazırlanmış müzik listeleri ise lofi, doğa sesleri, klasik müzik, ambient ve soft pop gibi çeşitli kategorilerden oluşmaktadır. Ayrıca, kullanıcıların günlük yaşamlarında stres düzeylerini düzenli olarak azaltmalarını hedefleyen küçük ama etkili alışkanlık önerileri de platformda yer almaktadır. Bu öneriler arasında gün sonunda yürüyüş yapmak, dijital molalar vermek veya günlük tutmak gibi basit ama faydalı uygulamalar bulunmaktadır.
 
 - **Gizlilik ve Güvenlik:** Kullanıcıların kişisel bilgileri toplanmaz. Sohbetler anonim olarak gerçekleştirilir ve tüm veri akışı kullanıcı gizliliğini koruyacak şekilde şifrelenir. Platform, güvenli bir deneyim sunmak üzere tasarlanmıştır.
@@ -68,7 +72,7 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 - **Daily Scrum toplantıları:** Google Meet üzerinden gerçekleştirilmiş; gün içi iletişim de WhatsApp grubu üzerinden sağlanmıştır. Notlar ve Miro panosundaki ilerlemeler ilgili klasörlerde arşivlenmiştir.
 - **Sprint Tahtası Ekran Görüntüsü**:
   <p align="left">
-  <img src="assets/Ekran görüntüsü 2025-07-07 151248.png" alt="Takım Logosu" width="700" />
+  <img src="assets/Ekran görüntüsü 2025-07-07 151248.png" alt="Takım Logosu" width="900" />
 </p>
 
 <details>
@@ -96,21 +100,21 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 ##  Kullanıcı Senaryosu
 > “Kendini bugün nasıl hissediyorsun?” sorusuyla kullanıcıya yaklaşan sistem, ruh hâlini analiz ederek yapay zekâ destekli empatik yanıtlar sunar. Geçmiş sohbetler veritabanında tutulur ve sistem, kullanıcıyla kurduğu geçmiş diyaloğu hatırlayabilir.
 
-### Sprint Review
+- **Sprint Review**: 
 
-○ Ekip ilk kez bir araya gelerek tanışma süreci gerçekleştirdi. Her üye kendi yetkinliklerini ve ilgi alanlarını paylaşarak ekip içi uyum sağlandı.  
-○ CalmAI proje fikri beyin fırtınası sürecinde önerildi ve tüm ekip üyeleri tarafından olumlu bulunarak seçildi.  
-○ Takım rolleri belirlendi  
-○ Proje iletişim düzeni ve görev takibi için kullanılan araçlar kararlaştırıldı (WhatsApp, GitHub, Miro).  
-○ Kullanıcı senaryoları ve temel işlevler belirlendi.  
-○ Teknoloji yığını netleştirildi.  
+ ○ Ekip ilk kez bir araya gelerek tanışma süreci gerçekleştirdi. Her üye kendi yetkinliklerini ve ilgi alanlarını paylaşarak ekip içi uyum sağlandı.  
+ ○ CalmAI proje fikri beyin fırtınası sürecinde önerildi ve tüm ekip üyeleri tarafından olumlu bulunarak seçildi.  
+ ○ Takım rolleri belirlendi  
+ ○ Proje iletişim düzeni ve görev takibi için kullanılan araçlar kararlaştırıldı (WhatsApp, GitHub, Miro).  
+ ○ Kullanıcı senaryoları ve temel işlevler belirlendi.  
+ ○ Teknoloji yığını netleştirildi.  
 
-### Sprint Retrospective
+- **Sprint Retrospective**:
 
-○ Ekip içerisinde görev dağılımı yapıldı.  
-○ Kodlama öncesi ihtiyaç analizleri tamamlandı.  
-○ Görev takibi ve sprint yönetimi için Miro üzerinden dijital scrum panosu oluşturulmasına karar verildi.  
-○ Sade, erişilebilir ve yapay zekâ destekli bir sistem hedefi benimsendi.  
-○ Haftalık değerlendirme toplantıları yapılmasına karar verildi.  
+ ○ Ekip içerisinde görev dağılımı yapıldı.  
+ ○ Kodlama öncesi ihtiyaç analizleri tamamlandı.  
+ ○ Görev takibi ve sprint yönetimi için Miro üzerinden dijital scrum panosu oluşturulmasına karar verildi.  
+ ○ Sade, erişilebilir ve yapay zekâ destekli bir sistem hedefi benimsendi.  
+ ○ Haftalık değerlendirme toplantıları yapılmasına karar verildi.  
 
 
