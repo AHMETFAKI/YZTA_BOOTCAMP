@@ -84,7 +84,7 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 <p align="left">
   <img src="assets/sohbet ekranı.jpg" alt="Takım Logosu" width="700" />
 </p>
-<details/>
+</details>
 
 ### Teknoloji Yığını
 
