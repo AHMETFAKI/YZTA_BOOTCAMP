@@ -44,7 +44,6 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 </details>
 
 
-##  Sprint 1 (20 Haziran – 6 Temmuz)
 <details>
   <summary><h2>Sprint 1</h2></summary>
 
