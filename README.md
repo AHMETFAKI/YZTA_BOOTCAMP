@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Takım Logosu" width="200" />
+  <img src="assets/Gemini_Generated_Image_5qxzf95qxzf95qxz.png" alt="Takım Logosu" width="200" />
 </p>
 
 ## Takım Adı
