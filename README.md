@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/Gemini_Generated_Image_5qxzf95qxzf95qxz.png" alt="Takım Logosu" width="200" />
-</p>
-
 ## Takım Adı
 ### Parlayan Yıldızlar ✨ </summary>
 
@@ -16,6 +12,11 @@
 
 ## Ürün Adı
 ### calmAI 
+
+## Ürün Logosu
+<p align="center">
+  <img src="assets/Gemini_Generated_Image_5qxzf95qxzf95qxz.png" alt="Takım Logosu" width="200" />
+</p>
 
 ## Ürün Açıklaması
 calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi azaltmalarına yardımcı olacak etkileşimli ve kullanıcı dostu bir web sitesidir. Sitemizde yer alan akıllı chatbotlar sayesinde kullanıcılar kendi stres seviyelerine göre özel sohbetler gerçekleştirebilir, anlık psikolojik destek alabilir ve benzer deneyimleri yaşayan diğer kişilerle güvenli ve samimi bir ortamda iletişim kurabilirler. Aynı zamanda, kullanıcıların stres seviyelerine uygun rahatlatıcı tavsiyeler ve müzik önerileri sunularak stresle başa çıkma süreçleri desteklenir.
