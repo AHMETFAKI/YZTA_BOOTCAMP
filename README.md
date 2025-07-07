@@ -47,26 +47,19 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 
 <details>
   <summary><h2>Sprint 1</h2></summary>
-<details>
----
-<details>
-  <summary><h3>Teknoloji Yığını</h3></summary>
- - Python: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.
 
- - FastAPI: Backend geliştirme sürecinde kullanılmak üzere seçildi.
+  ### Teknoloji Yığını
 
- - Jinja2 + HTML: Temel arayüz tasarımları için kullanılacaktır.
+  - **Python**: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.  
+  - **FastAPI**: Backend geliştirme sürecinde kullanılmak üzere seçildi.  
+  - **Jinja2 + HTML**: Temel arayüz tasarımları için kullanılacaktır.  
+  - **SQLite**: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek.  
+  - **Gemini API**: Yapay zekâ destekli chatbot sistemi için kullanılacak.  
+  - **Git & GitHub**: Sürüm kontrolü ve iş birliği için kullanılmaktadır.  
+  - **Miro**: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılmaktadır.  
+  - **Vercel / Docker**: Deployment süreci için planlandı.  
 
- - SQLite: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek.
-
- - Gemini API: Yapay zekâ destekli chatbot sistemi için kullanılacak.
-
- - Git & GitHub: Proje kodlarının sürüm kontrolü, takım içi iş birliği ve açık kaynaklı geliştirme süreçlerinin yürütülmesi amacıyla kullanılmaktadır.
-
- - Miro: Takım içi görev dağılımı, sprint planlaması ve dijital scrum panosu için görsel proje yönetimi aracı olarak kullanılmaktadır.
-   
- - Vercel / Docker: Projenin ilerleyen aşamalarında deployment için kullanılmak üzere planlandı.
-<details>
+</details>
 
 ---
 
@@ -74,7 +67,3 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 
 > “Kendini bugün nasıl hissediyorsun?” sorusuyla kullanıcıya yaklaşan sistem, ruh hâlini analiz ederek yapay zekâ destekli empatik yanıtlar sunar. Geçmiş sohbetler veritabanında tutulur ve sistem, kullanıcıyla kurduğu geçmiş diyaloğu hatırlayabilir.
 
----
-
-
----
