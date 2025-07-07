@@ -39,8 +39,8 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
   
 </details>
 
-## Hedef Kitle 🎯 
-
+<details>
+<summary><h2>Hedef Kitle 🎯 </h2></summary>
  - Yoğun iş temposuna sahip çalışanlar
 
  - Sınav stresi yaşayan öğrenciler
@@ -52,6 +52,7 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
  - Teknolojiye aşina kullanıcılar
 
  - Dijital deneyimi sınırlı olan bireyler
+</details>
 
 <details>
 <summary><h2>Pazarlama Alanı 📈 </h2></summary>
