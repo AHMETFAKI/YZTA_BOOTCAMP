@@ -101,21 +101,21 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 ##  Kullanıcı Senaryosu
 > “Kendini bugün nasıl hissediyorsun?” sorusuyla kullanıcıya yaklaşan sistem, ruh hâlini analiz ederek yapay zekâ destekli empatik yanıtlar sunar. Geçmiş sohbetler veritabanında tutulur ve sistem, kullanıcıyla kurduğu geçmiş diyaloğu hatırlayabilir.
 
-- **Sprint Review**: 
+## Sprint Review: 
 
- ○ Ekip ilk kez bir araya gelerek tanışma süreci gerçekleştirdi. Her üye kendi yetkinliklerini ve ilgi alanlarını paylaşarak ekip içi uyum sağlandı.  
- ○ CalmAI proje fikri beyin fırtınası sürecinde önerildi ve tüm ekip üyeleri tarafından olumlu bulunarak seçildi.  
- ○ Takım rolleri belirlendi  
- ○ Proje iletişim düzeni ve görev takibi için kullanılan araçlar kararlaştırıldı (WhatsApp, GitHub, Miro).  
- ○ Kullanıcı senaryoları ve temel işlevler belirlendi.  
- ○ Teknoloji yığını netleştirildi.  
+   ○ Ekip ilk kez bir araya gelerek tanışma süreci gerçekleştirdi. Her üye kendi yetkinliklerini ve ilgi alanlarını paylaşarak ekip içi uyum sağlandı.  
+   ○ CalmAI proje fikri beyin fırtınası sürecinde önerildi ve tüm ekip üyeleri tarafından olumlu bulunarak seçildi.  
+   ○ Takım rolleri belirlendi  
+   ○ Proje iletişim düzeni ve görev takibi için kullanılan araçlar kararlaştırıldı (WhatsApp, GitHub, Miro).  
+   ○ Kullanıcı senaryoları ve temel işlevler belirlendi.  
+   ○ Teknoloji yığını netleştirildi.  
 
-- **Sprint Retrospective**:
+## Sprint Retrospective:
 
- ○ Ekip içerisinde görev dağılımı yapıldı.  
- ○ Kodlama öncesi ihtiyaç analizleri tamamlandı.  
- ○ Görev takibi ve sprint yönetimi için Miro üzerinden dijital scrum panosu oluşturulmasına karar verildi.  
- ○ Sade, erişilebilir ve yapay zekâ destekli bir sistem hedefi benimsendi.  
- ○ Haftalık değerlendirme toplantıları yapılmasına karar verildi.  
+   ○ Ekip içerisinde görev dağılımı yapıldı.  
+   ○ Kodlama öncesi ihtiyaç analizleri tamamlandı.  
+   ○ Görev takibi ve sprint yönetimi için Miro üzerinden dijital scrum panosu oluşturulmasına karar verildi.  
+   ○ Sade, erişilebilir ve yapay zekâ destekli bir sistem hedefi benimsendi.  
+   ○ Haftalık değerlendirme toplantıları yapılmasına karar verildi.  
 
 
