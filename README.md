@@ -44,29 +44,13 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 
 </details>
 
+---
 
 <details>
   <summary><h2>Sprint 1</h2></summary>
 
-
-###  Gerçekleştirilenler
-- [x] Takım tanışması ve proje fikirleri beyin fırtınası
-- [x] CalmAI proje fikrinin seçilmesi
-- [x] Roller ve görev dağılımı yapılması
-- [x] GitHub repository oluşturulması
-- [x] Teknoloji yığını belirlenmesi (FastAPI, Jinja2, SQLite, OpenAI API)
-- [x] Kullanıcı senaryoları planlandı
-- [x] Toplantı notları ve ekran görüntüleri alındı
-
-###  Henüz Yapılmayanlar
-- [ ] Kodlama başlangıcı
-- [ ] UI tasarımının oluşturulması
-- [ ] Miro üzerinden dijital scrum panosu kurulması
-- [ ] Prototip üretimi
-
----
-
-## Kullanılan Teknolojiler
+<details>
+  <summary><h3>Teknoloji Yığını</h3></summary>
  - Python: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.
 
  - FastAPI: Backend geliştirme sürecinde kullanılmak üzere seçildi.
