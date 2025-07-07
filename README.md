@@ -58,7 +58,7 @@ calmAI, kullanıcıların günlük hayatlarında karşılaştıkları stresi aza
 <summary><h2>Pazarlama Alanı 📈 </h2></summary>
 calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla başa çıkmak isteyen bireyler için geliştirilen yapay zekâ destekli bir dijital destektir. Kullanıcıların ruh hâline duyarlı chatbotlarla kişiselleştirilmiş sohbetler gerçekleştirmesini sağlayan platform, aynı zamanda stres seviyelerine uygun müzik önerileri, motive edici içerikler ve anonim topluluk sohbet alanlarıyla duygusal rahatlama sunar. calmAI, sınav kaygısı yaşayan öğrencilerden iş hayatında tükenmişlik hisseden profesyonellere kadar geniş bir kitleye hitap eder. Sade ve kullanıcı dostu arayüzüyle dijital deneyimi sınırlı olan kullanıcılar için bile erişilebilir bir yapı sunan calmAI, “Kendini bugün nasıl hissediyorsun?” sorusuyla başlayan yolculukta kullanıcıya güvenli ve samimi bir alan açar. Sosyal medya, üniversite toplulukları, influencer iş birlikleri ve SEO odaklı blog içerikleriyle tanıtımı yapılması planlanan platform, zihinsel ve duygusal sağlığı dijital dünyada desteklemeyi hedefler.
 </details>
---- 
+
 
 ## Sprint 1 🚀
   
@@ -66,27 +66,20 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 - **Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
 - **Tahmin mantığı:** Proje boyunca toplamda tamamlanması planlanan 300 puanlık bir backlog oluşturulmuştur. Bu iş yükü üç sprint’e bölünerek dengeli ilerlenmesi hedeflenmiş, Sprint 1 için başlangıç puanı 100 olarak belirlenmiştir. İlk sprintte proje temeli atılmış, arayüz iskeleti çıkarılmış ve sistem entegrasyonları için teknik araştırmalar yapılmıştır.
 - **Daily Scrum toplantıları:** Google Meet üzerinden gerçekleştirilmiş; gün içi iletişim de WhatsApp grubu üzerinden sağlanmıştır. Notlar ve Miro panosundaki ilerlemeler ilgili klasörlerde arşivlenmiştir.
-- **Sprint Tahtası Ekran Görüntüsü**
+- **Sprint Tahtası Ekran Görüntüsü**:
   <p align="left">
-  <img src="assets/Ekran görüntüsü 2025-07-07 151248.png" alt="Takım Logosu" width="300" />
+  <img src="assets/Ekran görüntüsü 2025-07-07 151248.png" alt="Takım Logosu" width="700" />
 </p>
 
-### Sprint Review
+<details>
+<summary><h2>Ürünün Ekran Görüntüleri</h2></summary>
+<p align="left">
+  <img src="assets/giriş ekranı.jpg" alt="ekran görüntüsü" width="700" />
+</p>
 
-* Ekip ilk kez bir araya gelerek tanışma süreci gerçekleştirdi. Her üye kendi yetkinliklerini ve ilgi alanlarını paylaşarak ekip içi uyum sağlandı.
-* CalmAI proje fikri beyin fırtınası sürecinde önerildi ve tüm ekip üyeleri tarafından olumlu bulunarak seçildi.
-* Takım rolleri belirlendi
-* Proje iletişim düzeni ve görev takibi için kullanılan araçlar kararlaştırıldı (WhatsApp, GitHub, Miro).
-* Kullanıcı senaryoları ve temel işlevler belirlendi.
-* Teknoloji yığını netleştirildi.
-
-### Sprint Retrospective
-
-* Ekip içerisinde görev dağılımı yapıldı.
-* Kodlama öncesi ihtiyaç analizleri tamamlandı.
-* Görev takibi ve sprint yönetimi için Miro üzerinden dijital scrum panosu oluşturulmasına karar verildi.
-* Sade, erişilebilir ve yapay zekâ destekli bir sistem hedefi benimsendi.
-* Haftalık değerlendirme toplantıları yapılmasına karar verildi.
+<p align="left">
+  <img src="assets/sohbet ekranı.jpg" alt="Takım Logosu" width="700" />
+</p>
 
 ### Teknoloji Yığını
 
@@ -99,7 +92,25 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 - Miro: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor.  
 - Vercel / Docker: Deployment süreci için planlandı.  
 
-</details>
 
 ##  Kullanıcı Senaryosu
 > “Kendini bugün nasıl hissediyorsun?” sorusuyla kullanıcıya yaklaşan sistem, ruh hâlini analiz ederek yapay zekâ destekli empatik yanıtlar sunar. Geçmiş sohbetler veritabanında tutulur ve sistem, kullanıcıyla kurduğu geçmiş diyaloğu hatırlayabilir.
+
+### Sprint Review
+
+○ Ekip ilk kez bir araya gelerek tanışma süreci gerçekleştirdi. Her üye kendi yetkinliklerini ve ilgi alanlarını paylaşarak ekip içi uyum sağlandı.  
+○ CalmAI proje fikri beyin fırtınası sürecinde önerildi ve tüm ekip üyeleri tarafından olumlu bulunarak seçildi.  
+○ Takım rolleri belirlendi  
+○ Proje iletişim düzeni ve görev takibi için kullanılan araçlar kararlaştırıldı (WhatsApp, GitHub, Miro).  
+○ Kullanıcı senaryoları ve temel işlevler belirlendi.  
+○ Teknoloji yığını netleştirildi.  
+
+### Sprint Retrospective
+
+○ Ekip içerisinde görev dağılımı yapıldı.  
+○ Kodlama öncesi ihtiyaç analizleri tamamlandı.  
+○ Görev takibi ve sprint yönetimi için Miro üzerinden dijital scrum panosu oluşturulmasına karar verildi.  
+○ Sade, erişilebilir ve yapay zekâ destekli bir sistem hedefi benimsendi.  
+○ Haftalık değerlendirme toplantıları yapılmasına karar verildi.  
+
+
