@@ -70,7 +70,7 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 - **Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
 - **Tahmin mantığı:** Proje boyunca toplamda tamamlanması planlanan 300 puanlık bir backlog oluşturulmuştur. Bu iş yükü üç sprint’e bölünerek dengeli ilerlenmesi hedeflenmiş, Sprint 1 için başlangıç puanı 100 olarak belirlenmiştir. İlk sprintte proje temeli atılmış, arayüz iskeleti çıkarılmış ve sistem entegrasyonları için teknik araştırmalar yapılmıştır.
 - **Daily Scrum toplantıları:** Google Meet üzerinden gerçekleştirilmiş; gün içi iletişim de WhatsApp grubu üzerinden sağlanmıştır. Notlar ve Miro panosundaki ilerlemeler ilgili klasörlerde arşivlenmiştir.
-- **Sprint Tahtası Ekran Görüntüsü**:
+- **Sprint Board Ekran Görüntüsü**:
   <p align="left">
   <img src="assets/Ekran görüntüsü 2025-07-07 151248.png" alt="Takım Logosu" width="700" />
 </p>
