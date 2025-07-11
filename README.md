@@ -119,3 +119,4 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
    ○ Haftalık değerlendirme toplantıları yapılmasına karar verildi.  
 
 
+# Güncellendi
