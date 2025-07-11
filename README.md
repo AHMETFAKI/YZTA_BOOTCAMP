@@ -146,3 +146,5 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 
 
 # Güncellendi
+
+bu konu başlığı ileride silinmeli hata düzeltme için eklendi
