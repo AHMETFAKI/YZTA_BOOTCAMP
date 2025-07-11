@@ -2,49 +2,58 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kayıt Ol - CalmAI</title>
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #f0f4f8; text-align: center; padding-top: 50px; }
-        .form-box {
-            background: white;
-            padding: 30px;
-            margin: auto;
-            width: 300px;
-            border-radius: 12px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        input, button {
-            width: 90%;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 6px;
-            border: 1px solid #ccc;
-        }
-        button {
-            background-color: #4f46e5;
-            color: white;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        a {
-            text-decoration: none;
-            color: #4f46e5;
-        }
-    </style>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
     <div class="form-box">
         <h2>CalmAI Kayıt</h2>
-        <form method="post">
-            <input type="email" name="email" placeholder="E-posta" required><br>
-            <input type="password" name="password" placeholder="Şifre" required><br>
+        <form method="post" class="register-form">
+            <div class="form-group">
+                <label for="fullname">Ad Soyad</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Adınız Soyadınız" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Yaş</label>
+                <input type="number" id="age" name="age" min="10" max="120" placeholder="Yaşınız" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Cinsiyet</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Seçiniz</option>
+                    <option value="Kadın">Kadın</option>
+                    <option value="Erkek">Erkek</option>
+                    <option value="Diğer">Diğer</option>
+                    <option value="Belirtmek istemiyorum">Belirtmek istemiyorum</option>
+                </select>
+            </div>
+            <input type="email" name="email" placeholder="E-posta" required>
+            <div class="password-wrapper">
+                <input type="password" name="password" placeholder="Şifre" required>
+                <span class="toggle-password">👁️</span>
+            </div>
             <button type="submit">Kayıt Ol</button>
         </form>
         <p>Zaten üye misin? <a href="/login">Giriş Yap</a></p>
     </div>
+
+        <!-- Kayıt Uyarı Modalı -->
+    <div id="registerErrorModal" class="modal" style="display:none;">
+        <div class="modal-content" style="text-align:center;">
+            <span class="close" id="closeRegisterError">&times;</span>
+            <div style="font-size:48px;color:#ff4d4f;margin-bottom:16px;">&#9888;</div>
+            <h3 style="color:#ff4d4f;">Bu e-posta adresiyle zaten bir hesap var.</h3>
+        </div>
+    </div>
+        <!-- Kayıt Uyarı Modalı -->
+    <div id="registerErrorModal" class="modal" style="display:none;">
+        <div class="modal-content" style="text-align:center;">
+            <span class="close" id="closeRegisterError">&times;</span>
+            <div style="font-size:48px;color:#ff4d4f;margin-bottom:16px;">&#9888;</div>
+            <h3 style="color:#ff4d4f;">Bu e-posta adresiyle zaten bir hesap var.</h3>
+        </div>
+    </div>
+    <script src="/static/main.js"></script>
 </body>
 </html>
-
-
-
-<!--durum guncelleme-->

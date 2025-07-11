@@ -2,92 +2,49 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CalmAI Sohbet</title>
-    <style>
-        body { margin: 0; font-family: sans-serif; display: flex; height: 100vh; }
-        .sidebar {
-            width: 220px;
-            background-color: #f1f5f9;
-            padding: 20px;
-            overflow-y: auto;
-            border-right: 1px solid #ccc;
-        }
-        .sidebar h3 {
-            margin-bottom: 10px;
-        }
-        .sidebar ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        .sidebar li {
-            padding: 8px;
-            background-color: #e2e8f0;
-            margin-bottom: 5px;
-            border-radius: 6px;
-        }
-        .main {
-            flex: 1;
-            padding: 30px;
-            display: flex;
-            flex-direction: column;
-        }
-        .chat-box {
-            flex: 1;
-            overflow-y: auto;
-            margin-bottom: 20px;
-        }
-        .message {
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 8px;
-        }
-        .user-msg { background-color: #dbeafe; align-self: flex-end; }
-        .ai-msg { background-color: #dcfce7; align-self: flex-start; }
-        form {
-            display: flex;
-            gap: 10px;
-        }
-        textarea {
-            flex: 1;
-            padding: 10px;
-            border-radius: 6px;
-            resize: none;
-            font-size: 16px;
-        }
-        button {
-            padding: 10px 20px;
-            background-color: #3b82f6;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
-<body>
+<body class="chat-bg">
     <div class="sidebar">
+        <button class="circle-btn" type="button" id="profileBtn" aria-label="Ana Sayfa"><span>🏠</span></button>
+        <div style="height: 18px;"></div>
+        <form action="/chat/new" method="post" style="margin-bottom:18px;">
+            <button type="submit" class="new-chat-btn">+ Yeni Sohbet</button>
+        </form>
         <h3>Geçmiş Sohbetler</h3>
         <ul>
-            {% for message in history %}
-                <li>{{ message.timestamp.strftime('%d.%m.%Y %H:%M') }}</li>
+            {% for chat in history %}
+                <li><a href="/chat/{{ chat.id }}">{{ chat.timestamp.strftime('%d.%m.%Y %H:%M') }}</a></li>
             {% endfor %}
         </ul>
     </div>
-    <div class="main">
-        <div class="chat-box">
+    <div class="main chat-main">
+        <div class="chat-box" id="chat-box">
             {% for chat in chats %}
                 <div class="message user-msg">{{ chat.user_input }}</div>
                 <div class="message ai-msg">{{ chat.ai_response }}</div>
             {% endfor %}
         </div>
-        <form method="post">
-            <textarea name="user_input" rows="2" placeholder="Bugün nasıl hissediyorsun?" required></textarea>
+        <form method="post" class="chat-form">
+            <textarea name="user_input" rows="4" style="min-height:64px;" placeholder="Bugün nasıl hissediyorsun?" required></textarea>
             <button type="submit">Gönder</button>
         </form>
     </div>
+    <!-- Kişisel Bilgi Modalı -->
+    <div id="profileModal" class="modal" style="display:none;">
+        <div class="modal-content" style="max-width:400px; min-width:300px; text-align:center;">
+            <span class="close" id="closeProfile">&times;</span>
+            <h2 style="margin-bottom:24px; font-size:2rem; color:#2563EB;">Kişisel Bilgiler</h2>
+            <div style="background:#f9fbff; border-radius:14px; box-shadow:0 2px 12px rgba(37,99,235,0.07); padding:28px 18px; display:flex; flex-direction:column; gap:16px; align-items:flex-start; margin:auto;">
+                <div style="font-size:1.13rem;"><strong>Ad Soyad:</strong> <span style="color:#1E1E1E;">Gökhan Yılmaz</span></div>
+                <div style="font-size:1.13rem;"><strong>E-posta:</strong> <span style="color:#1E1E1E;">gokhan@example.com</span></div>
+                <div style="font-size:1.13rem;"><strong>Kayıt Tarihi:</strong> <span style="color:#1E1E1E;">01.01.2024</span></div>
+                <div style="font-size:1.13rem;"><strong>Üyelik Tipi:</strong> <span style="color:#1E1E1E;">Standart</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/main.js"></script>
 </body>
 </html>
-
-
-
-<!--durum guncelleme-->
