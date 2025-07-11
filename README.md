@@ -67,13 +67,54 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
 ## Sprint 1 🚀
   
 ### Sprint Notları
-- **Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
-- **Tahmin mantığı:** Proje boyunca toplamda tamamlanması planlanan 300 puanlık bir backlog oluşturulmuştur. Bu iş yükü üç sprint’e bölünerek dengeli ilerlenmesi hedeflenmiş, Sprint 1 için başlangıç puanı 100 olarak belirlenmiştir. İlk sprintte proje temeli atılmış, arayüz iskeleti çıkarılmış ve sistem entegrasyonları için teknik araştırmalar yapılmıştır.
-- **Daily Scrum toplantıları:** Google Meet üzerinden gerçekleştirilmiş; gün içi iletişim de WhatsApp grubu üzerinden sağlanmıştır. Notlar ve Miro panosundaki ilerlemeler ilgili klasörlerde arşivlenmiştir.
+Sprint 1 boyunca ekip olarak güçlü bir iş birliği içinde çalıştık. Proje planına uygun şekilde teknik araştırmalar tamamlandı ve temel yapılar başarıyla oluşturuldu. Her ekip üyesi, kendisine atanmış görevleri zamanında teslim etmeye özen gösterdi. Sprint 1, hem ekip içi koordinasyonumuzu test etmek hem de projenin zeminini sağlamlaştırmak açısından verimli geçti.
+  - Sprint başında takım tanışması ve beyin fırtınası ile proje hedefleri netleştirildi.
+  - CalmAI projesi onaylandı ve ekip rollerine göre sorumluluklar atandı.
+  - GitHub üzerinde repository oluşturularak temel branch stratejisi belirlendi.
+  - Teknoloji yığını (FastAPI, Jinja2, SQLite, OpenAI API) belirlendi, başlangıç konfigürasyonları yapıldı.
+  - Kullanıcı senaryoları taslağı oluşturularak temel akış şemalandı.
+  - Web sitesinin arayüz iskeleti hazırlandı.
+  - Toplantı notları ve ekran görüntüleri arşivlenerek sprint 1 notları kaydedildi.
+    
+**Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
+
+**Tahmin Mantığı:** Toplamda 300 puanlık backlog, üç sprint’e bölünerek sprint başına 100 puanlık hedef belirlendi. İlk sprintte altyapı ve ön gereksinimler tamamlanarak puan hedefi karşılandı.
+
+**Daily Scrum Toplantıları:**
+ - Toplantılar Google Meet üzerinden gerçekleştirildi; gün içi iletişim WhatsApp grubu aracılığıyla sağlandı.
+ - Bazı günler bildirim gecikmeleri gözlendi ve Google Takvim hatırlatma sistemi değerlendirilmeye başlandı.
+ - Notlar ve Miro panosundaki ilerlemeler ilgili klasörlerde arşivlendi.
+
+
 - **Sprint Board Ekran Görüntüsü**:
   <p align="left">
-  <img src="assets/Ekran görüntüsü 2025-07-07 151248.png" alt="Takım Logosu" width="700" />
+  <img src="assets/miross.jpg" alt="miro" width="900" />
 </p>
+
+<details>
+<summary><h2>Daily Scrum Ekran Görüntüleri</h2></summary>
+<p align="left">
+  <img src="assets/wpss.jpg" alt="ekran görüntüsü" width="700" />
+</p>
+
+<p align="left">
+  <img src="assets/meet_1.png" alt="ekran görüntüsü" width="700" />
+</p>
+</details>
+
+### Teknoloji Yığını
+Proje boyunca kullanmayı planladığımız teknolojiler:
+- Python: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.  
+- FastAPI: Backend geliştirme sürecinde kullanılmak üzere seçildi.  
+- Jinja2 + HTML: Temel arayüz tasarımları için kullanılacak.  
+- SQLite: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek.  
+- Gemini API: Yapay zekâ destekli chatbot sistemi için kullanılacak.  
+- Git & GitHub: Sürüm kontrolü ve iş birliği için kullanılıyor.  
+- Miro: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor.  
+- Vercel / Docker: Deployment süreci için planlandı.
+
+##  Kullanıcı Senaryosu
+> “Kendini bugün nasıl hissediyorsun?” sorusuyla kullanıcıya yaklaşan sistem, ruh hâlini analiz ederek yapay zekâ destekli empatik yanıtlar sunar. Geçmiş sohbetler veritabanında tutulur ve sistem, kullanıcıyla kurduğu geçmiş diyaloğu hatırlayabilir.
 
 <details>
 <summary><h2>Ürünün Ekran Görüntüleri</h2></summary>
@@ -85,21 +126,6 @@ calmAI, modern yaşamın getirdiği stres, kaygı ve duygusal yoğunluklarla ba�
   <img src="assets/sohbet ekranı.jpg" alt="Takım Logosu" width="700" />
 </p>
 </details>
-
-### Teknoloji Yığını
-
-- Python: Proje geliştirme dili olarak belirlendi ve backend yapısı için temel programlama dili olarak kullanılacak.  
-- FastAPI: Backend geliştirme sürecinde kullanılmak üzere seçildi.  
-- Jinja2 + HTML: Temel arayüz tasarımları için kullanılacak.  
-- SQLite: Basit ve yerel veritabanı çözümü olarak projeye entegre edilecek.  
-- Gemini API: Yapay zekâ destekli chatbot sistemi için kullanılacak.  
-- Git & GitHub: Sürüm kontrolü ve iş birliği için kullanılıyor.  
-- Miro: Görev dağılımı ve sprint planlaması için proje yönetim aracı olarak kullanılıyor.  
-- Vercel / Docker: Deployment süreci için planlandı.  
-
-
-##  Kullanıcı Senaryosu
-> “Kendini bugün nasıl hissediyorsun?” sorusuyla kullanıcıya yaklaşan sistem, ruh hâlini analiz ederek yapay zekâ destekli empatik yanıtlar sunar. Geçmiş sohbetler veritabanında tutulur ve sistem, kullanıcıyla kurduğu geçmiş diyaloğu hatırlayabilir.
 
 ## Sprint Review: 
 
