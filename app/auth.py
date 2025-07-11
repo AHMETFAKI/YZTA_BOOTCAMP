@@ -55,3 +55,9 @@ def login_user(
     response = RedirectResponse("/chat", status_code=303)
     response.set_cookie("user_id", str(user.id))  # Basit oturum yönetimi
     return response
+
+
+
+
+
+##durum güncelleme

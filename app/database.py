@@ -19,3 +19,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # Model tanımları için kullanılacak base class
 Base = declarative_base()
+
+
+
+##durum güncelleme

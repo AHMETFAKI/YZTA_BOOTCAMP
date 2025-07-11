@@ -130,3 +130,8 @@ def view_history(request: Request, db: Session = Depends(get_db)):
         "request": request,
         "messages": messages
     })
+
+
+
+
+##durum güncelleme

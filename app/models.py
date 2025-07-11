@@ -22,3 +22,7 @@ class Message(Base):
     timestamp = Column(DateTime, default=datetime.utcnow)
 
     owner = relationship("User", back_populates="messages")
+
+
+
+##durum güncelleme

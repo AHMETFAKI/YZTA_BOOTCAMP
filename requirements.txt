@@ -5,3 +5,7 @@ python-dotenv
 sqlalchemy
 passlib[bcrypt]
 google-generativeai
+
+
+
+##durum güncelleme

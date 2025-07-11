@@ -40,3 +40,7 @@ app.include_router(chat.router)
 @app.get("/")
 def root():
     return RedirectResponse("/login")  # veya "/register"
+
+
+
+##durum güncelleme
