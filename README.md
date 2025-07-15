@@ -159,11 +159,13 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 
 <details>
 <summary><h2>Daily Scrum Ekran Görüntüleri</h2></summary>
+</details>
 
 
 
 <details>
 <summary><h2>Ürünün Ekran Görüntüleri</h2></summary>
+</details>
 
 ## Sprint Review: 
 
