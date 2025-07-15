@@ -145,6 +145,30 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
    ○ Haftalık değerlendirme toplantıları yapılmasına karar verildi.  
 
 
-# Güncellendi
+## Sprint 2 🚀
+  
+### Sprint Notları
 
-bu konu başlığı ileride silinmeli hata düzeltme için eklendi
+**Daily Scrum Toplantıları:**
+ 
+
+- **Sprint Board Ekran Görüntüsü**:
+  <p align="left">
+  <img src="assets/" alt="miro" width="900" />
+</p>
+
+<details>
+<summary><h2>Daily Scrum Ekran Görüntüleri</h2></summary>
+
+
+
+<details>
+<summary><h2>Ürünün Ekran Görüntüleri</h2></summary>
+
+## Sprint Review: 
+
+
+
+## Sprint Retrospective:
+
+
