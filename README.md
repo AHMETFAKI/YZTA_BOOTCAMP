@@ -196,7 +196,7 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 </p>
 
 <p align="left">
-  <img src="sohbetalanıss.png" alt="Daily Scrum Görüntüsü 2" width="800" />
+  <img src="assets/sohbetalanıss.png" alt="Sohbet Alanı Ekran Görüntüsü" width="800" />
 </p>
 
 </details>
