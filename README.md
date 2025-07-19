@@ -154,7 +154,7 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 
 - **Sprint Board Ekran Görüntüsü**:
   <p align="left">
-  <img src="assets/miro2.png" alt="miro" width="900" />
+  <img src="assets/miro2.png" alt="miro" width="1200" />
 </p>
 
 <details>
