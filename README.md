@@ -159,6 +159,13 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 
 <details>
 <summary><h2>Daily Scrum Ekran Görüntüleri</h2></summary>
+
+<p align="left">
+  <img src="assets/" alt="toplantıss.png" width="900" />
+</p>
+
+
+  
 </details>
 
 
