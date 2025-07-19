@@ -41,6 +41,40 @@ app.include_router(chat.router)
 def root():
     return RedirectResponse("/login")  # veya "/register"
 
+from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+from dotenv import load_dotenv
+import os
 
+from . import models, database, auth, chat, report # report'u import et
+
+from fastapi import Request
+from fastapi.responses import RedirectResponse
+
+# .env dosyasını yükle
+load_dotenv()
+
+# FastAPI uygulamasını başlat
+app = FastAPI()
+
+# HTML şablonlarını tanımla
+templates = Jinja2Templates(directory="app/templates")
+database.templates = templates  # dışarıdan erişmek için
+
+# Statik dosyaları bağla (CSS vb.)
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+# Veritabanı tablolarını oluştur
+models.Base.metadata.create_all(bind=database.engine)
+
+# Route dosyalarını bağla
+app.include_router(auth.router)
+app.include_router(chat.router)
+app.include_router(report.router) # Yeni rapor rotasını ekle
+
+@app.get("/")
+def root():
+    return RedirectResponse("/login")
 
 ##durum güncelleme
