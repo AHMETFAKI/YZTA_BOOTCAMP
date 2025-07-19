@@ -161,7 +161,7 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 <summary><h2>Daily Scrum Ekran Görüntüleri</h2></summary>
 
 <p align="left">
-  <img src="assets/wpss2(1).jpg" alt="Daily Scrum Görüntüsü 1" width="900" />
+  <img src="assets/wpss2 (1).jpg" alt="Daily Scrum Görüntüsü 1" width="900" />
 </p>
 
 <p align="left">
@@ -169,11 +169,11 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 </p>
 
 <p align="left">
-  <img src="assets/wpss2(2).jpg" alt="Daily Scrum Görüntüsü 2" width="900" />
+  <img src="assets/wpss2 (2).jpg" alt="Daily Scrum Görüntüsü 2" width="900" />
 </p>
 
 <p align="left">
-  <img src="assets/wpss2(3).jpg" alt="Daily Scrum Görüntüsü 3" width="900" />
+  <img src="assets/wpss2 (3).jpg" alt="Daily Scrum Görüntüsü 3" width="900" />
 </p>
 
 </details>
