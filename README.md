@@ -184,19 +184,19 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 <summary><h2>Ürünün Ekran Görüntüleri</h2></summary>
 
 <p align="left">
-  <img src="assets/girisalanıss.png" alt="Daily Scrum Görüntüsü 3" width="400" />
+  <img src="assets/girisalanıss.png" alt="Daily Scrum Görüntüsü 3" width="800" />
 </p>
 
 <p align="left">
-  <img src="assets/kayıtalanıss.png" alt="Toplantı Ekran Görüntüsü" width="700" />
+  <img src="assets/kayıtalanıss.png" alt="Toplantı Ekran Görüntüsü" width="800" />
 </p>
 
 <p align="left">
-  <img src="assets/kisiselbilgilerss.png" alt="Daily Scrum Görüntüsü 1" width="600" />
+  <img src="assets/kisiselbilgilerss.png" alt="Daily Scrum Görüntüsü 1" width="800" />
 </p>
 
 <p align="left">
-  <img src="sohbetalanıss.png" alt="Daily Scrum Görüntüsü 2" width=500" />
+  <img src="sohbetalanıss.png" alt="Daily Scrum Görüntüsü 2" width="800" />
 </p>
 
 </details>
