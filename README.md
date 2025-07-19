@@ -161,7 +161,7 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 <summary><h2>Daily Scrum Ekran Görüntüleri</h2></summary>
 
 <p align="left">
-  <img src="assets/wpss2 (3).jpg" alt="Daily Scrum Görüntüsü 3" width="600" />
+  <img src="assets/wpss2 (3).jpg" alt="Daily Scrum Görüntüsü 3" width="400" />
 </p>
 
 <p align="left">
@@ -169,11 +169,11 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 </p>
 
 <p align="left">
-  <img src="assets/wpss2 (1).jpg" alt="Daily Scrum Görüntüsü 1" width="600" />
+  <img src="assets/wpss2 (1).jpg" alt="Daily Scrum Görüntüsü 1" width="400" />
 </p>
 
 <p align="left">
-  <img src="assets/wpss2 (2).jpg" alt="Daily Scrum Görüntüsü 2" width="600" />
+  <img src="assets/wpss2 (2).jpg" alt="Daily Scrum Görüntüsü 2" width="400" />
 </p>
 
 </details>
@@ -182,7 +182,26 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 
 <details>
 <summary><h2>Ürünün Ekran Görüntüleri</h2></summary>
+
+<p align="left">
+  <img src="assets/girisalanıss.png" alt="Daily Scrum Görüntüsü 3" width="400" />
+</p>
+
+<p align="left">
+  <img src="assets/kayıtalanıss.png" alt="Toplantı Ekran Görüntüsü" width="700" />
+</p>
+
+<p align="left">
+  <img src="assets/kisiselbilgilerss.png" alt="Daily Scrum Görüntüsü 1" width="600" />
+</p>
+
+<p align="left">
+  <img src="sohbetalanıss.png" alt="Daily Scrum Görüntüsü 2" width=500" />
+</p>
+
 </details>
+
+
 
 ## Sprint Review: 
 
