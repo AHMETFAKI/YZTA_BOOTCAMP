@@ -6,6 +6,7 @@ import os
 from dotenv import load_dotenv
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
+import random 
 
 from . import models, database
 
@@ -57,7 +58,7 @@ def get_chat(request: Request, db: Session = Depends(get_db)):
     })
 
 
-# POST: Yeni mesaj al ve cevapla
+# POST: Yeni mesaj al ve cevapla (TEK BİR FONKSİYON HALİNDE)
 @router.post("/chat")
 def post_chat(request: Request, user_input: str = Form(...), db: Session = Depends(get_db)):
     user_id = request.cookies.get("user_id")
@@ -65,16 +66,12 @@ def post_chat(request: Request, user_input: str = Form(...), db: Session = Depen
         return RedirectResponse("/login", status_code=303)
 
     # Önceki mesajları al (hafıza için)
-    # Gemini 2.0 Flash için sohbet geçmişini doğrudan generate_content'e göndereceğiz.
     past_messages_db = db.query(models.Message).filter_by(user_id=user_id).order_by(
-        models.Message.timestamp.desc()).limit(5).all() # Son 5 mesajı al
+        models.Message.timestamp.desc()).limit(5).all()
 
     # Sohbet geçmişini Gemini'nin beklediği formata dönüştür
-    # En eski mesajdan en yeniye doğru sırala
     chat_history_for_gemini = []
-    # Sistem mesajını ilk kullanıcı mesajı olarak ekliyoruz
     chat_history_for_gemini.append({"role": "user", "parts": [{"text": "Sen empatik bir dijital danışmansın. Kullanıcının duygularını nazikçe anlayıp destekleyici yanıtlar ver."}]})
-
     for msg in reversed(past_messages_db):
         chat_history_for_gemini.append({"role": "user", "parts": [{"text": msg.user_input}]})
         chat_history_for_gemini.append({"role": "model", "parts": [{"text": msg.ai_response}]})
@@ -82,16 +79,16 @@ def post_chat(request: Request, user_input: str = Form(...), db: Session = Depen
     # Mevcut kullanıcı mesajını ekle
     chat_history_for_gemini.append({"role": "user", "parts": [{"text": user_input}]})
 
-    # LLM cevabı al
-    # Burada artık chat_history'yi doğrudan generate_content'e gönderiyoruz
+    # LLM'den cevap al
     ai_response = get_llm_response(chat_history_for_gemini)
 
-    # Veritabanına kaydet
+    # Veritabanına YENİ STRES SKORU ile birlikte kaydet
     new_msg = models.Message(
         user_id=user_id,
         user_input=user_input,
         ai_response=ai_response,
-        timestamp=datetime.utcnow()
+        timestamp=datetime.utcnow(),
+        stress_score=random.uniform(0.1, 0.9)  # Stres skorunu burada simüle ediyoruz
     )
     db.add(new_msg)
     db.commit()
