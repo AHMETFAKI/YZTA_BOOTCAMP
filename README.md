@@ -154,23 +154,66 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 
 - **Sprint Board Ekran Görüntüsü**:
   <p align="left">
-  <img src="assets/" alt="miro" width="900" />
+  <img src="assets/miro2.png" alt="miro" width="1200" />
 </p>
 
 <details>
 <summary><h2>Daily Scrum Ekran Görüntüleri</h2></summary>
+
+<p align="left">
+  <img src="assets/wpss2 (3).jpg" alt="Daily Scrum Görüntüsü 3" width="400" />
+</p>
+
+<p align="left">
+  <img src="assets/toplantıss.png" alt="Toplantı Ekran Görüntüsü" width="700" />
+</p>
+
+<p align="left">
+  <img src="assets/wpss2 (1).jpg" alt="Daily Scrum Görüntüsü 1" width="400" />
+</p>
+
+<p align="left">
+  <img src="assets/wpss2 (2).jpg" alt="Daily Scrum Görüntüsü 2" width="400" />
+</p>
+
 </details>
 
 
 
 <details>
 <summary><h2>Ürünün Ekran Görüntüleri</h2></summary>
+
+<p align="left">
+  <img src="assets/girisalanıss.png" alt="Daily Scrum Görüntüsü 3" width="800" />
+</p>
+
+<p align="left">
+  <img src="assets/kayıtalanıss.png" alt="Toplantı Ekran Görüntüsü" width="800" />
+</p>
+
+<p align="left">
+  <img src="assets/kisiselbilgilerss.png" alt="Daily Scrum Görüntüsü 1" width="800" />
+</p>
+
+<p align="left">
+  <img src="assets/sohbetalanıss.png" alt="Sohbet Alanı Ekran Görüntüsü" width="800" />
+</p>
+
 </details>
 
-## Sprint Review: 
 
+### Sprint Review:
 
+* Arayüzün dinamikleştirilmesi: Form input'larının dinamik bağlanması ve JS ile etkileşimli alanların geliştirilmesi tamamlandı.
+* Stres seviyesi değerlendirme modülü: 5 persona için prompt ayrımı ve Gemini API entegrasyonu başarıyla gerçekleştirildi.
+* Stres seviyesine göre farklı chatbotlar ile eşleştirme özelliği tamamlandı.
+* Backend'de haftalık stres verisi kaydı: Simülasyon verisiyle SQLite veya JSON kayıt sistemi entegre edildi.
+* Yapılanların raporlanması tamamlandı.
 
-## Sprint Retrospective:
+### Sprint Retrospective:
 
-
+* Geliştirme süreci boyunca arayüz dinamikleştirme ve chatbot entegrasyonunda karşılaşılan zorluklar değerlendirildi.
+* Backend veri kaydı ve raporlama süreçlerindeki potansiyel iyileştirmeler tartışıldı.
+* Gemini API entegrasyonu sırasında edinilen deneyimler paylaşıldı ve gelecekteki kullanımlar için dersler çıkarıldı.
+* Takım içi iletişim ve iş birliğinin Sprint 2 hedeflerine ulaşmadaki etkinliği gözden geçirildi.
+* Tamamlanan görevlerin kalitesi ve sonraki sprintlere etkisi üzerine geri bildirimler alındı.
