@@ -149,7 +149,6 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
   
 ### Sprint Notları
 Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini hayata geçirmek ve kullanıcıya dinamik bir deneyim sunmaktı. Proje görevlerimiz ve hedeflerimiz, proje yönetim aracımız olan Miro'daki Sprint Planlama panosu üzerinden yönetilmektedir.
- - Sprint 2 kapsamında odaklanılan ana geliştirme başlıkları şunlardır:
  - Arayüzün Dinamikleştirilmesi: Kullanıcı girdilerinin (form inputları) JavaScript ile dinamik olarak işlenmesi ve arayüzün etkileşimli hale getirilmesi.
  - Akıllı Stres Değerlendirme Modülü: Kullanıcının girdilerine göre stres seviyesini analiz eden bir modül geliştirmek amacıyla Gemini API entegrasyonunun gerçekleştirilmesi.
  - Kişiselleştirilmiş Chatbot Deneyimi: Değerlendirilen stres seviyesine göre kullanıcıların farklı chatbot karakterleri ile eşleştirilmesinin sağlanması.
