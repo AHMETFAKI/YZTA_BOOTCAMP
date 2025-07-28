@@ -211,28 +211,20 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 </details>
 
 
-### Sprint Review:
+## Sprint Review:
 
 ○ Arayüzün dinamikleştirilmesi: Form input'larının dinamik bağlanması ve JS ile etkileşimli alanların geliştirilmesi tamamlandı.
-
 ○ Stres seviyesi değerlendirme modülü: 5 persona için prompt ayrımı ve Gemini API entegrasyonu başarıyla gerçekleştirildi.
-
 ○ Stres seviyesine göre farklı chatbotlar ile eşleştirme özelliği tamamlandı.
-
 ○ Backend'de haftalık stres verisi kaydı: Simülasyon verisiyle SQLite veya JSON kayıt sistemi entegre edildi.
-
 ○ Yapılanların raporlanması tamamlandı.
 
-### Sprint Retrospective:
+## Sprint Retrospective:
 
 ○ Geliştirme süreci boyunca arayüz dinamikleştirme ve chatbot entegrasyonunda karşılaşılan zorluklar değerlendirildi.
-
 ○ Backend veri kaydı ve raporlama süreçlerindeki potansiyel iyileştirmeler tartışıldı.
-
 ○ Gemini API entegrasyonu sırasında edinilen deneyimler paylaşıldı ve gelecekteki kullanımlar için dersler çıkarıldı.
-
 ○ Takım içi iletişim ve iş birliğinin Sprint 2 hedeflerine ulaşmadaki etkinliği gözden geçirildi.
-
 ○ Tamamlanan görevlerin kalitesi ve sonraki sprintlere etkisi üzerine geri bildirimler alındı.
 
 
