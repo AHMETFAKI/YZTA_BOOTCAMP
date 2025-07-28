@@ -148,9 +148,19 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 ## Sprint 2 🚀
   
 ### Sprint Notları
+Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini hayata geçirmek ve kullanıcıya dinamik bir deneyim sunmaktı. Proje görevlerimiz ve hedeflerimiz, proje yönetim aracımız olan Miro'daki Sprint Planlama panosu üzerinden yönetilmektedir.
+ - Sprint 2 kapsamında odaklanılan ana geliştirme başlıkları şunlardır:
+ - Arayüzün Dinamikleştirilmesi: Kullanıcı girdilerinin (form inputları) JavaScript ile dinamik olarak işlenmesi ve arayüzün etkileşimli hale getirilmesi.
+ - Akıllı Stres Değerlendirme Modülü: Kullanıcının girdilerine göre stres seviyesini analiz eden bir modül geliştirmek amacıyla Gemini API entegrasyonunun gerçekleştirilmesi.
+ - Kişiselleştirilmiş Chatbot Deneyimi: Değerlendirilen stres seviyesine göre kullanıcıların farklı chatbot karakterleri ile eşleştirilmesinin sağlanması.
+ - Veri Kalıcılığı: Haftalık stres verilerinin ileride analiz edilebilmesi için bir simülasyon verisiyle birlikte SQLite veritabanı veya JSON formatında kaydedilmesi için arka plan altyapısının oluşturulması.
+ - Raporlama: Sprint boyunca yapılan geliştirmelerin ve ilerlemenin belgelenmesi.
 
-**Daily Scrum Toplantıları:**
- 
+**Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
+
+**Tahmin Mantığı:** Proje yaşam döngüsü boyunca tamamlanması hedeflenen toplam 300 puanlık bir iş havuzunda Sprint 2 için 100 puanlık bir tahmin yapılmıştır. Bir görev tamamlanamamış olduğu için Sprint 2 için toplam 80 puan tamamlanmıştır. İlk iki sprint için toplam puan 180 olmuştur.
+
+**Daily Scrum Toplantıları:** Ekip, sprint verimliliğini artırmak amacıyla günlük Scrum toplantılarında daha proaktif ve katılımcı bir iletişim stratejisi benimseme kararı almıştır.
 
 - **Sprint Board Ekran Görüntüsü**:
   <p align="left">
@@ -204,16 +214,80 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 
 ### Sprint Review:
 
-* Arayüzün dinamikleştirilmesi: Form input'larının dinamik bağlanması ve JS ile etkileşimli alanların geliştirilmesi tamamlandı.
-* Stres seviyesi değerlendirme modülü: 5 persona için prompt ayrımı ve Gemini API entegrasyonu başarıyla gerçekleştirildi.
-* Stres seviyesine göre farklı chatbotlar ile eşleştirme özelliği tamamlandı.
-* Backend'de haftalık stres verisi kaydı: Simülasyon verisiyle SQLite veya JSON kayıt sistemi entegre edildi.
-* Yapılanların raporlanması tamamlandı.
+○ Arayüzün dinamikleştirilmesi: Form input'larının dinamik bağlanması ve JS ile etkileşimli alanların geliştirilmesi tamamlandı.
+○ Stres seviyesi değerlendirme modülü: 5 persona için prompt ayrımı ve Gemini API entegrasyonu başarıyla gerçekleştirildi.
+○ Stres seviyesine göre farklı chatbotlar ile eşleştirme özelliği tamamlandı.
+○ Backend'de haftalık stres verisi kaydı: Simülasyon verisiyle SQLite veya JSON kayıt sistemi entegre edildi.
+○ Yapılanların raporlanması tamamlandı.
 
 ### Sprint Retrospective:
 
-* Geliştirme süreci boyunca arayüz dinamikleştirme ve chatbot entegrasyonunda karşılaşılan zorluklar değerlendirildi.
-* Backend veri kaydı ve raporlama süreçlerindeki potansiyel iyileştirmeler tartışıldı.
-* Gemini API entegrasyonu sırasında edinilen deneyimler paylaşıldı ve gelecekteki kullanımlar için dersler çıkarıldı.
-* Takım içi iletişim ve iş birliğinin Sprint 2 hedeflerine ulaşmadaki etkinliği gözden geçirildi.
-* Tamamlanan görevlerin kalitesi ve sonraki sprintlere etkisi üzerine geri bildirimler alındı.
+○ Geliştirme süreci boyunca arayüz dinamikleştirme ve chatbot entegrasyonunda karşılaşılan zorluklar değerlendirildi.
+○ Backend veri kaydı ve raporlama süreçlerindeki potansiyel iyileştirmeler tartışıldı.
+○ Gemini API entegrasyonu sırasında edinilen deneyimler paylaşıldı ve gelecekteki kullanımlar için dersler çıkarıldı.
+○ Takım içi iletişim ve iş birliğinin Sprint 2 hedeflerine ulaşmadaki etkinliği gözden geçirildi.
+○ Tamamlanan görevlerin kalitesi ve sonraki sprintlere etkisi üzerine geri bildirimler alındı.
+
+
+## Sprint 3 🚀
+  
+### Sprint Notları
+
+**Daily Scrum Toplantıları:**
+ 
+
+- **Sprint Board Ekran Görüntüsü**:
+  <p align="left">
+  <img src="assets/" alt="miro" width="1200" />
+</p>
+
+<details>
+<summary><h2>Daily Scrum Ekran Görüntüleri</h2></summary>
+
+<p align="left">
+  <img src="assets/" alt="Daily Scrum Görüntüsü 3" width="400" />
+</p>
+
+<p align="left">
+  <img src="assets/" alt="Toplantı Ekran Görüntüsü" width="700" />
+</p>
+
+<p align="left">
+  <img src="assets/" alt="Daily Scrum Görüntüsü 1" width="400" />
+</p>
+
+<p align="left">
+  <img src="assets/" alt="Daily Scrum Görüntüsü 2" width="400" />
+</p>
+
+</details>
+
+
+
+<details>
+<summary><h2>Ürünün Ekran Görüntüleri</h2></summary>
+
+<p align="left">
+  <img src="assets/" alt="Daily Scrum Görüntüsü 3" width="800" />
+</p>
+
+<p align="left">
+  <img src="assets/" alt="Toplantı Ekran Görüntüsü" width="800" />
+</p>
+
+<p align="left">
+  <img src="assets/" alt="Daily Scrum Görüntüsü 1" width="800" />
+</p>
+
+<p align="left">
+  <img src="assets/" alt="Sohbet Alanı Ekran Görüntüsü" width="800" />
+</p>
+
+</details>
+
+
+### Sprint Review:
+
+### Sprint Retrospective:
+
+
