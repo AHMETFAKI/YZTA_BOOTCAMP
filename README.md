@@ -129,8 +129,8 @@ Proje boyunca kullanmayı planladığımız teknolojiler:
 
 ## Sprint Review: 
 
-   ○ Ekip ilk kez bir araya gelerek tanışma süreci gerçekleştirdi. Her üye kendi yetkinliklerini ve ilgi alanlarını paylaşarak ekip içi uyum sağlandı.  
-   ○ CalmAI proje fikri beyin fırtınası sürecinde önerildi ve tüm ekip üyeleri tarafından olumlu bulunarak seçildi.  
+Ekip ilk kez bir araya gelerek tanışma süreci gerçekleştirdi. Her üye kendi yetkinliklerini ve ilgi alanlarını paylaşarak ekip içi uyum sağlandı.  
+ CalmAI proje fikri beyin fırtınası sürecinde önerildi ve tüm ekip üyeleri tarafından olumlu bulunarak seçildi.  
    ○ Takım rolleri belirlendi  
    ○ Proje iletişim düzeni ve görev takibi için kullanılan araçlar kararlaştırıldı (WhatsApp, GitHub, Miro).  
    ○ Kullanıcı senaryoları ve temel işlevler belirlendi.  
@@ -213,6 +213,7 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 
 ## Sprint Review:
 
+
 ○ Arayüzün dinamikleştirilmesi: Form input'larının dinamik bağlanması ve JS ile etkileşimli alanların geliştirilmesi tamamlandı.
 ○ Stres seviyesi değerlendirme modülü: 5 persona için prompt ayrımı ve Gemini API entegrasyonu başarıyla gerçekleştirildi.
 ○ Stres seviyesine göre farklı chatbotlar ile eşleştirme özelliği tamamlandı.
@@ -220,6 +221,7 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 ○ Yapılanların raporlanması tamamlandı.
 
 ## Sprint Retrospective:
+
 
 ○ Geliştirme süreci boyunca arayüz dinamikleştirme ve chatbot entegrasyonunda karşılaşılan zorluklar değerlendirildi.
 ○ Backend veri kaydı ve raporlama süreçlerindeki potansiyel iyileştirmeler tartışıldı.
