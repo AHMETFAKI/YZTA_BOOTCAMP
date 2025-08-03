@@ -279,27 +279,27 @@ Projenin kullanıcı hikayeleri, Miro panosundaki backlog item'larının temelin
 <summary><h2>Ürünün Ekran Görüntüleri</h2></summary>
 
 <p align="left">
-  <img src="assets/sohbetekranı3.jpg" alt="Toplantı Ekran Görüntüsü" width="800" />
+  <img src="assets/ahmet1.jpg" alt="Toplantı Ekran Görüntüsü" width="800" />
 </p>
 
 <p align="left">
-  <img src="assets/kisiselbilgiler3.jpg" alt="Daily Scrum Görüntüsü 1" width="800" />
+  <img src="assets/ahmet2.jpg" alt="Daily Scrum Görüntüsü 1" width="800" />
 </p>
 
 <p align="left">
-  <img src="assets/grafikekranı3.jpg" alt="Sohbet Alanı Ekran Görüntüsü" width="800" />
+  <img src="assets/ahmet3.jpg" alt="Sohbet Alanı Ekran Görüntüsü" width="800" />
 </p>
 
 <p align="left">
-  <img src="assets/ruhhali3.jpg" alt="Sohbet Alanı Ekran Görüntüsü" width="800" />
+  <img src="assets/ahmet4.jpg" alt="Sohbet Alanı Ekran Görüntüsü" width="800" />
 </p>
 
 <p align="left">
-  <img src="assets/odalar13.jpg" alt="Daily Scrum Görüntüsü 3" width="800" />
+  <img src="assets/ahmet5.jpg" alt="Daily Scrum Görüntüsü 3" width="800" />
 </p>
 
 <p align="left">
-  <img src="assets/odalar3.jpg" alt="Daily Scrum Görüntüsü 3" width="800" />
+  <img src="assets/ahmet6.jpg" alt="Daily Scrum Görüntüsü 3" width="800" />
 </p>
 
 </details>
