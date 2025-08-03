@@ -213,29 +213,27 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 
 ## Sprint Review:
 
-
-○ Arayüzün dinamikleştirilmesi: Form input'larının dinamik bağlanması ve JS ile etkileşimli alanların geliştirilmesi tamamlandı.
-
-○ Stres seviyesi değerlendirme modülü: 5 persona için prompt ayrımı ve Gemini API entegrasyonu başarıyla gerçekleştirildi.
-
-○ Stres seviyesine göre farklı chatbotlar ile eşleştirme özelliği tamamlandı.
-
-○ Backend'de haftalık stres verisi kaydı: Simülasyon verisiyle SQLite veya JSON kayıt sistemi entegre edildi.
-
-○ Yapılanların raporlanması tamamlandı.
+- Arayüzün dinamikleştirilmesi: Form input'larının dinamik bağlanması ve JS ile etkileşimli alanların geliştirilmesi tamamlandı.
+  
+- Stres seviyesi değerlendirme modülü: 5 persona için prompt ayrımı ve Gemini API entegrasyonu başarıyla gerçekleştirildi.
+  
+- Stres seviyesine göre farklı chatbotlar ile eşleştirme özelliği tamamlandı.
+  
+- Backend'de haftalık stres verisi kaydı: Simülasyon verisiyle SQLite veya JSON kayıt sistemi entegre edildi.
+  
+- Yapılanların raporlanması tamamlandı.
 
 ## Sprint Retrospective:
 
-
-○ Geliştirme süreci boyunca arayüz dinamikleştirme ve chatbot entegrasyonunda karşılaşılan zorluklar değerlendirildi.
-
-○ Backend veri kaydı ve raporlama süreçlerindeki potansiyel iyileştirmeler tartışıldı.
-
-○ Gemini API entegrasyonu sırasında edinilen deneyimler paylaşıldı ve gelecekteki kullanımlar için dersler çıkarıldı.
-
-○ Takım içi iletişim ve iş birliğinin Sprint 2 hedeflerine ulaşmadaki etkinliği gözden geçirildi.
-
-○ Tamamlanan görevlerin kalitesi ve sonraki sprintlere etkisi üzerine geri bildirimler alındı.
+- Geliştirme süreci boyunca arayüz dinamikleştirme ve chatbot entegrasyonunda karşılaşılan zorluklar değerlendirildi.
+  
+- Backend veri kaydı ve raporlama süreçlerindeki potansiyel iyileştirmeler tartışıldı.
+  
+- Gemini API entegrasyonu sırasında edinilen deneyimler paylaşıldı ve gelecekteki kullanımlar için dersler çıkarıldı.
+  
+- Takım içi iletişim ve iş birliğinin Sprint 2 hedeflerine ulaşmadaki etkinliği gözden geçirildi.
+  
+- Tamamlanan görevlerin kalitesi ve sonraki sprintlere etkisi üzerine geri bildirimler alındı.
 
 
 ## Sprint 3 🚀
@@ -298,7 +296,31 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 
 
 ### Sprint Review:
+ - Topluluk Sohbet Alanı: Kullanıcıların anonim olarak katılabileceği, gerçek zamanlı mesajlaşma odaları oluşturuldu.
+
+ - Kişiselleştirilmiş Tavsiye Modülü: Kullanıcının ruh haline göre özelleştirilmiş günlük tavsiyeler ve müzik önerileri sunan bir sistem entegre edildi.
+
+ - Haftalık Stres Raporu: Hafta boyunca girilen stres seviyeleri, kullanıcıya görsel bir grafikle rapor olarak sunuldu.
+
+ - Veri Gizliliği ve Güvenlik: Kullanıcı verilerinin işlenmesine dair şeffaf bilgilendirme kutuları ve açıklamalar arayüze eklendi.
+
+ - Açık Kaynak ve Teslim Hazırlıkları: Proje, GitHub'da yayınlanmaya hazırlandı ve sunum hazırlıkları tamamlandı.
+
+
 
 ### Sprint Retrospective:
+**Olumlu Yönler:**
+ - Takım çalışması ve görev dağılımı sayesinde sprint hedeflerine büyük ölçüde ulaşıldı.
+
+ - MVP odaklı geliştirme ile projenin ana özellikleri (sohbet, tavsiye, raporlama) başarıyla hayata geçirildi.
+
+ - localStorage ve JSON gibi hedeflenen teknolojiler başarılı bir şekilde kullanıldı.
+   
+**Olumsuz Yönler:**
+
+ - "Stres seviyesine göre farklı chatbot'lar ile eşleştirme" gibi kapsamlı bir özellik tamamlanamadı.
+
+ - "Günlük tutma alanı" özelliğinin geliştirilmesi bitirilemedi.
 
 
+ 
