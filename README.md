@@ -254,15 +254,15 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 <summary><h2>Daily Scrum Ekran Görüntüleri</h2></summary>
 
 <p align="left">
-  <img src="assets/" alt="Daily Scrum Görüntüsü 3" width="400" />
+  <img src="assets/wpss13.jpg" alt="Daily Scrum Görüntüsü 3" width="400" />
 </p>
 
 <p align="left">
-  <img src="assets/" alt="Toplantı Ekran Görüntüsü" width="700" />
+  <img src="assets/wpss23.jpg" alt="Toplantı Ekran Görüntüsü" width="400" />
 </p>
 
 <p align="left">
-  <img src="assets/" alt="Daily Scrum Görüntüsü 1" width="400" />
+  <img src="assets/wpss33.jpg" alt="Daily Scrum Görüntüsü 1" width="400" />
 </p>
 
 <p align="left">
