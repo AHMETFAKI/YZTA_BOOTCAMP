@@ -239,7 +239,7 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 ## Sprint 3 🚀
   
 ### Sprint Notları
-Projenin kullanıcı hikayeleri, Miro panosundaki backlog item'larının temelini oluşturmuştur. Her bir backlog kartı, "Bir kullanıcı olarak stresimi yönetmek için haftalık raporumu görmek istiyorum." gibi bir kullanıcı ihtiyacını veya "Stres seviyemi azaltmak için farklı bireylerle paylaşımlarda bulunmak istiyorum." gibi bir teknik gereksinimi temsil etmektedir. Projenin geliştirme süreci, doğrudan kullanıcı hikayelerini temel alarak şekillendi;  kullanıcının kendini ifade edebileceği Gemini API destekli bir sohbet motoru ve bu etkileşimleri takip edebileceği görsel bir haftalık stres raporu hayata geçirildi. Bireysel deneyimin ötesinde, "yalnız değilim" hissini pekiştirmek amacıyla kullanıcıların anonim olarak bağ kurabildiği topluluk sohbet odaları geliştirildi. Anlık desteğe ihtiyaç duyanlar için ise ruh haline göre kişiselleştirilmiş tavsiyeler sunan bir "Relax" modülü ve geçmiş konuşmaları saklayan localStorage tabanlı bir yapı eklendi. Sonuç olarak her bir özellik farklı bir kullanıcı ihtiyacını karşılayarak birbirini tamamlayan ve bütünsel bir dijital refah asistanı yaratan bir yapı oluşturdu.
+Projenin kullanıcı hikayeleri, Miro panosundaki backlog item'larının temelini oluşturmuştur. Her bir backlog kartı, "Bir kullanıcı olarak stresimi yönetmek için haftalık raporumu görmek istiyorum." gibi bir kullanıcı ihtiyacını veya "Stres seviyemi azaltmak için farklı bireylerle paylaşımlarda bulunmak istiyorum." gibi bir teknik gereksinimi temsil etmektedir. Geliştirme süreci, bu hikayelerin hayata geçirilmesiyle şekillenmiştir.
 
 **Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
 
@@ -323,18 +323,11 @@ Projenin kullanıcı hikayeleri, Miro panosundaki backlog item'larının temelin
 
 
 ### Sprint Retrospective:
-**Olumlu Yönler:**
- - Takım çalışması ve görev dağılımı sayesinde sprint hedeflerine büyük ölçüde ulaşıldı.
-
- - MVP odaklı geliştirme ile projenin ana özellikleri (sohbet, tavsiye, raporlama) başarıyla hayata geçirildi.
-
- - localStorage ve JSON gibi hedeflenen teknolojiler başarılı bir şekilde kullanıldı.
+**Olumlu Yönler:**  Takım çalışması ve görev dağılımı sayesinde sprint hedeflerine büyük ölçüde ulaşıldı.
+                    MVP odaklı geliştirme ile projenin ana özellikleri (sohbet, tavsiye, raporlama) başarıyla hayata geçirildi                                                                                                          localStorage ve JSON gibi hedeflenen teknolojiler başarılı bir şekilde kullanıldı.
    
-**Olumsuz Yönler:**
-
- - "Stres seviyesine göre farklı chatbot'lar ile eşleştirme" gibi kapsamlı bir özellik tamamlanamadı.
-
- - "Günlük tutma alanı" özelliğinin geliştirilmesi bitirilemedi.
+**Olumsuz Yönler:** "Stres seviyesine göre farklı chatbot'lar ile eşleştirme" gibi kapsamlı bir özellik tamamlanamadı.
+                    "Günlük tutma alanı" özelliğinin geliştirilmesi bitirilemedi.
 
 
  
