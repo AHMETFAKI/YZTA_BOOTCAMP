@@ -258,7 +258,7 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 </p>
 
 <p align="left">
-  <img src="assets/wpss23.jpg" alt="Toplantı Ekran Görüntüsü" width="700" />
+  <img src="assets/wpss23.jpg" alt="Toplantı Ekran Görüntüsü" width="400" />
 </p>
 
 <p align="left">
