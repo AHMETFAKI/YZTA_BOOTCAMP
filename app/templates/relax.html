@@ -1,0 +1,104 @@
+﻿{% extends "base.html" %}
+
+{% block title %}Dijital Refah Asistanı{% endblock %}
+
+{% block content %}
+<style>
+    body {
+        background-color: #f0f4f8;
+        color: #4a5568;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 40px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3 {
+        color: #4a5568;
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+    
+    h3 .emoji {
+        margin-right: 10px;
+    }
+
+    p {
+        margin-bottom: 30px;
+        line-height: 1.6;
+    }
+
+    .advice-list {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .advice-item {
+        background: #ffffff;
+        padding: 20px 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        font-weight: 500;
+        width: 100%;
+        text-align: left;
+    }
+
+    .advice-item:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    a {
+        color: #3b82f6;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    a:hover {
+        color: #1e40af;
+        text-decoration: underline;
+    }
+
+    .back-link {
+        margin-top: 30px;
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        color: #9ca3af;
+        font-size: 0.8rem;
+    }
+</style>
+
+<h3><span class="emoji">✨</span> Ruh Halin: {{ mood }}</h3>
+<p>{{ music | safe }}</p>
+
+<hr style="width: 100%; border: 1px solid #e2e8f0; margin: 20px 0;">
+
+<h3><span class="emoji">🌱</span> Bugünün Tavsiyeleri</h3>
+<ul class="advice-list">
+    {% for item in advice_list %}
+    <li class="advice-item">{{ item }}</li>
+    {% endfor %}
+</ul>
+
+<a href="/chat" class="back-link">← Sohbete Geri Dön</a>
+
+
+{% endblock %}

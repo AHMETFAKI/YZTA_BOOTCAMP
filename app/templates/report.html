@@ -41,30 +41,31 @@
     </div>
 
     <script>
-        const ctx = document.getElementById('stressChart').getContext('2d');
-        const stressChart = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: {{ labels | safe }},
-                datasets: [{
-                    label: 'Stres Seviyesi (%)',
-                    data: {{ data | safe }},
-                    backgroundColor: 'rgba(77, 141, 255, 0.2)',
-                    borderColor: 'rgba(77, 141, 255, 1)',
-                    borderWidth: 2,
-                    tension: 0.4,
-                    fill: true
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 100
-                    }
+    const ctx = document.getElementById('stressChart').getContext('2d');
+    const stressChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ["Pzt", "Sal", "Çar", "Per", "Cum", "Cmt", "Paz"],
+            datasets: [{
+                label: 'Stres Seviyesi (%)',
+                data: [20, 40, 35, 50, 60, 45, 30],
+                backgroundColor: 'rgba(77, 141, 255, 0.2)',
+                borderColor: 'rgba(77, 141, 255, 1)',
+                borderWidth: 2,
+                tension: 0.4,
+                fill: true
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 100
                 }
             }
-        });
-    </script>
+        }
+    });
+</script>
+
 </body>
 </html>

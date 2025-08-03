@@ -11,10 +11,15 @@ from dotenv import load_dotenv
 import os
 
 from . import models, database, auth, chat
+from . import relax  # en üstte import et
+
 
 
 from fastapi import Request
 from fastapi.responses import RedirectResponse
+
+
+
 
 # .env dosyasını yükle
 load_dotenv()
@@ -78,3 +83,5 @@ def root():
     return RedirectResponse("/login")
 
 ##durum güncelleme
+
+app.include_router(relax.router)  # altlara ekle
