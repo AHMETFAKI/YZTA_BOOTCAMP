@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Mesajlaşma Odaları{% endblock %}
+{% block content %}
+<div class="container py-4">
+    <div class="card mb-4 p-3">
+        <h2 class="mb-3">Mesajlaşma Odaları</h2>
+        <a href="/rooms/create" class="btn btn-success mb-2">+ Yeni Oda Oluştur</a>
+    </div>
+    <div class="card p-3">
+        <h4>Katıldığım Odalar</h4>
+        <div class="row">
+        {% for room in rooms %}
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ room.name }}</h5>
+                        <span class="badge {% if room.is_group %}bg-primary{% else %}bg-secondary{% endif %}">
+                            {% if room.is_group %}Grup Odası{% else %}Kişisel{% endif %}
+                        </span>
+                    </div>
+                    <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+                        <a href="/rooms/{{ room.id }}" class="btn btn-outline-dark btn-sm">Odaya Gir</a>
+                        {% if room.is_group %}
+                        <a href="/rooms/{{ room.id }}/invite" class="btn btn-outline-primary btn-sm">+ Davet Et</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

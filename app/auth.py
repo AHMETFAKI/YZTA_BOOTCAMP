@@ -21,6 +21,9 @@ def register_form(request: Request):
 @router.post("/register")
 def register_user(
     request: Request,
+    fullname: str = Form(...),
+    age: int = Form(...),
+    gender: str = Form(...),
     email: str = Form(...),
     password: str = Form(...),
     db: Session = Depends(get_db)
@@ -30,7 +33,7 @@ def register_user(
         raise HTTPException(status_code=400, detail="Bu e-posta zaten kayıtlı.")
 
     hashed_pw = bcrypt.hash(password)
-    new_user = models.User(email=email, hashed_password=hashed_pw)
+    new_user = models.User(fullname=fullname, age=age, gender=gender, email=email, hashed_password=hashed_pw)
     db.add(new_user)
     db.commit()
     return RedirectResponse("/login", status_code=303)

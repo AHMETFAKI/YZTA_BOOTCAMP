@@ -50,50 +50,107 @@ def get_chat(request: Request, db: Session = Depends(get_db)):
     if not user_id:
         return RedirectResponse("/login", status_code=303)
 
-    messages = db.query(models.Message).filter_by(user_id=user_id).order_by(models.Message.timestamp).all()
+    # Kullanıcının tüm chatlerini (sohbetlerini) getir
+    chats = db.query(models.Chat).filter_by(user_id=user_id).order_by(models.Chat.created_at.desc()).all()
+    user = db.query(models.User).filter_by(id=user_id).first()
+    rooms = db.query(models.ChatRoom).join(models.ChatRoomMember).filter(models.ChatRoomMember.user_id == user_id).all()
+
+    # Aktif chat_id cookie'den alınır, yoksa en yenisi seçilir
+    active_chat_id = request.cookies.get("active_chat_id")
+    active_chat = None
+    messages = []
+    if active_chat_id:
+        active_chat = db.query(models.Chat).filter_by(id=active_chat_id, user_id=user_id).first()
+    if not active_chat and chats:
+        active_chat = chats[0]
+        active_chat_id = active_chat.id if active_chat else None
+    if active_chat:
+        messages = db.query(models.Message).filter_by(chat_id=active_chat.id).order_by(models.Message.timestamp).all()
+
     return database.templates.TemplateResponse("chat.html", {
         "request": request,
-        "chats": messages,
-        "history": messages
+        "chats": chats,
+        "messages": messages,
+        "user": user,
+        "rooms": rooms,
+        "current_chat_id": active_chat_id
     })
+
+import uuid
+
+@router.get("/chat/new")
+def new_chat(request: Request, db: Session = Depends(get_db)):
+    user_id = request.cookies.get("user_id")
+    if not user_id:
+        return RedirectResponse("/login", status_code=303)
+    # Yeni chat oluştur
+    new_chat = models.Chat(user_id=user_id, created_at=datetime.utcnow())
+    db.add(new_chat)
+    db.commit()
+    db.refresh(new_chat)
+    response = RedirectResponse("/chat", status_code=303)
+    response.set_cookie("active_chat_id", str(new_chat.id), max_age=60*60*24)
+    return response
+
+
+
+
+# POST: Yeni mesaj al ve cevapla (TEK BİR FONKSİYON HALİNDE)
 
 
 # POST: Yeni mesaj al ve cevapla (TEK BİR FONKSİYON HALİNDE)
 @router.post("/chat")
-def post_chat(request: Request, user_input: str = Form(...), db: Session = Depends(get_db)):
+def post_chat(request: Request, user_input: str = Form(None), select_chat_id: int = Form(None), db: Session = Depends(get_db)):
     user_id = request.cookies.get("user_id")
     if not user_id:
         return RedirectResponse("/login", status_code=303)
 
-    # Önceki mesajları al (hafıza için)
-    past_messages_db = db.query(models.Message).filter_by(user_id=user_id).order_by(
-        models.Message.timestamp.desc()).limit(5).all()
+    # Eğer kullanıcı sidebar'dan chat seçtiyse, sadece aktif chat_id'yi güncelle ve geri dön
+    if select_chat_id:
+        response = RedirectResponse("/chat", status_code=303)
+        response.set_cookie("active_chat_id", str(select_chat_id), max_age=60*60*24)
+        return response
+
+    # Normal mesaj gönderme akışı
+    chat_id = request.cookies.get("active_chat_id")
+    if not chat_id:
+        # Eğer aktif chat yoksa yeni chat başlat
+        new_chat = models.Chat(user_id=user_id, created_at=datetime.utcnow())
+        db.add(new_chat)
+        db.commit()
+        db.refresh(new_chat)
+        chat_id = new_chat.id
+
+    # O chat'e ait geçmiş mesajları al
+    past_messages_db = db.query(models.Message).filter_by(chat_id=chat_id).order_by(models.Message.timestamp).all()
 
     # Sohbet geçmişini Gemini'nin beklediği formata dönüştür
     chat_history_for_gemini = []
     chat_history_for_gemini.append({"role": "user", "parts": [{"text": "Sen empatik bir dijital danışmansın. Kullanıcının duygularını nazikçe anlayıp destekleyici yanıtlar ver."}]})
-    for msg in reversed(past_messages_db):
+    for msg in past_messages_db:
         chat_history_for_gemini.append({"role": "user", "parts": [{"text": msg.user_input}]})
         chat_history_for_gemini.append({"role": "model", "parts": [{"text": msg.ai_response}]})
 
     # Mevcut kullanıcı mesajını ekle
-    chat_history_for_gemini.append({"role": "user", "parts": [{"text": user_input}]})
-
-    # LLM'den cevap al
-    ai_response = get_llm_response(chat_history_for_gemini)
-
-    # Veritabanına YENİ STRES SKORU ile birlikte kaydet
-    new_msg = models.Message(
-        user_id=user_id,
-        user_input=user_input,
-        ai_response=ai_response,
-        timestamp=datetime.utcnow(),
-        stress_score=random.uniform(0.1, 0.9)  # Stres skorunu burada simüle ediyoruz
-    )
-    db.add(new_msg)
-    db.commit()
-
-    return RedirectResponse("/chat", status_code=303)
+    if user_input:
+        chat_history_for_gemini.append({"role": "user", "parts": [{"text": user_input}]})
+        # LLM'den cevap al
+        ai_response = get_llm_response(chat_history_for_gemini)
+        # Mesajı aktif chat'e kaydet
+        new_msg = models.Message(
+            user_id=user_id,
+            chat_id=chat_id,
+            user_input=user_input,
+            ai_response=ai_response,
+            timestamp=datetime.utcnow(),
+            stress_score=random.uniform(0.1, 0.9)
+        )
+        db.add(new_msg)
+        db.commit()
+        db.refresh(new_msg)
+    response = RedirectResponse("/chat", status_code=303)
+    response.set_cookie("active_chat_id", str(chat_id), max_age=60*60*24)
+    return response
 
 
 # Gemini API'den cevap al

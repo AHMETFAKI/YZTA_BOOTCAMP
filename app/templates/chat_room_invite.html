@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Odaya Üye Davet Et{% endblock %}
+{% block content %}
+<div class="container py-4">
+    <div class="card p-4 mx-auto" style="max-width:500px;">
+        <h3 class="mb-3">Odaya Üye Davet Et: {{ room.name }}</h3>
+        <form method="post">
+            <div class="mb-3">
+                <label for="userFilter" class="form-label">Kullanıcı Ara:</label>
+                <input type="text" id="userFilter" class="form-control" placeholder="İsim veya e-posta ile ara..." onkeyup="filterUsers()">
+            </div>
+            <div class="mb-3">
+                <label for="userSelect" class="form-label">Kullanıcı Seç:</label>
+                <select name="user_id" id="userSelect" class="form-select" required>
+                    {% for user in users %}
+                    <option value="{{ user.id }}">{{ user.fullname }} ({{ user.email }})</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Davet Et</button>
+        </form>
+        <a href="/rooms/{{ room.id }}" class="d-block mt-3">← Odaya Dön</a>
+    </div>
+</div>
+<script>
+function filterUsers() {
+    var input = document.getElementById('userFilter');
+    var filter = input.value.toLowerCase();
+    var select = document.getElementById('userSelect');
+    var options = select.options;
+    for (var i = 0; i < options.length; i++) {
+        var txt = options[i].text.toLowerCase();
+        options[i].style.display = txt.includes(filter) ? '' : 'none';
+    }
+}
+</script>
+{% endblock %}

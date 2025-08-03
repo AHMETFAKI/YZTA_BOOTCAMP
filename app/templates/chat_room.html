@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Oda: {{ room.name }}{% endblock %}
+{% block content %}
+<div class="row g-0" style="min-height: 80vh;">
+    <!-- Sidebar -->
+    <div class="col-md-3 col-12 bg-light border-end p-4 d-flex flex-column align-items-center">
+        <div class="mb-4 w-100 d-flex align-items-center justify-content-center">
+            <span style="font-size:2rem; font-weight:bold; color:#4f46e5;">CalmAI</span>
+        </div>
+        <div class="mb-4 w-100 text-center">
+            <h4 class="mb-2">{{ room.name }}</h4>
+            <div class="mb-2">
+                <span class="badge {% if room.is_group %}bg-primary{% else %}bg-secondary{% endif %}">
+                    {% if room.is_group %}Grup{% else %}Kişisel{% endif %}
+                </span>
+            </div>
+            {% if room.is_group %}
+            <a href="/rooms/{{ room.id }}/invite" class="btn btn-outline-primary btn-sm mb-2">+ Kişi Davet Et</a>
+            {% endif %}
+        </div>
+        <div class="mb-2 w-100">
+            <div class="card p-3 mb-2 d-flex flex-wrap align-items-center gap-2">
+                <strong>Üyeler ({{ members|length }}):</strong>
+                <div class="mt-2 w-100 d-flex flex-wrap gap-1">
+                    {% for m in members %}
+                        <span class="badge bg-info text-dark">{{ m.user.fullname }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <a href="/rooms" class="btn btn-link mt-auto">← Odalara Dön</a>
+    </div>
+    <!-- Chat Area -->
+    <div class="col-md-9 col-12 d-flex flex-column justify-content-between" style="background:#f8fafc; min-height:80vh;">
+        <div class="flex-grow-1 d-flex flex-column justify-content-end">
+            <div class="card mb-0 border-0" style="height: 60vh; max-height: 65vh; overflow-y: auto;">
+                <div class="card-body">
+                    {% if messages|length == 0 %}
+                        <div class="text-center text-muted mt-5">Sohbette mesaj yok.</div>
+                    {% else %}
+                        {% for msg in messages %}
+                            <div class="mb-2 {% if msg.sender.id == request.cookies['user_id']|int %}bg-primary-subtle text-primary rounded px-2 py-1 align-self-end{% else %}bg-light rounded px-2 py-1 align-self-start{% endif %}" style="max-width: 70%;">
+                                <strong>{% if msg.sender.id == request.cookies['user_id']|int %}Sen{% else %}{{ msg.sender.fullname }}{% endif %}:</strong> {{ msg.message }}
+                                <span class="text-muted small ms-2">{{ msg.timestamp.strftime('%d.%m.%Y %H:%M') }}</span>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <form method="post" class="d-flex gap-2 p-3 bg-white border-top" style="z-index: 2;">
+            <input type="text" name="message" class="form-control" placeholder="Mesajınız" required autocomplete="off">
+            <button type="submit" class="btn btn-primary">Gönder</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

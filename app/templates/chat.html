@@ -5,39 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CalmAI Sohbet</title>
     <link rel="stylesheet" href="/static/style.css">
+    <style>
+        .sidebar-link {
+            background-color: #e5e7eb;
+            border-radius: 8px;
+            padding: 10px 12px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #1e1e1e;
+            margin-bottom: 10px;
+            transition: background-color 0.2s ease;
+        }
+        .sidebar-link:hover {
+            background-color: #d1d5db;
+        }
+        .sidebar-link span.icon {
+            font-size: 1.3rem;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body class="chat-bg">
 
-    <div class="sidebar">
-        <button class="circle-btn"  style="top: 10px;" type="button" id="profileBtn" aria-label="Ana Sayfa"><span>🏠</span></button>
-        
- <a href="/report" class="circle-btn" style="top: 70px;" aria-label="Raporlar"><span>📊</span></a>
+    <div class="sidebar px-2 pt-3" style="min-width: 240px; background: #f5f7fa; border-right: 1px solid #e5e7eb; height: 100vh;">
+        <div class="mb-4">
+            <a href="#" id="profileBtn" class="sidebar-link">
+                <span class="icon">🏠</span>
+                <span>Ana Sayfa</span>
+            </a>
+            <a href="/report" class="sidebar-link">
+                <span class="icon">📊</span>
+                <span>Raporlar</span>
+            </a>
+            <a href="/relax" class="sidebar-link">
+                <span class="icon">🧘</span>
+                <span>Rahatlama</span>
+            </a>
+        </div>
 
- <a href="/relax" class="circle-btn" style="top: 120px;" aria-label="Rahatlama"><span>🧘</span></a>
+        <a href="/chat/new" class="btn btn-primary w-100 rounded-pill py-2 mb-3">+ Yeni Sohbet</a>
 
-        <div style="height: 18px;"></div>
-        
-        <form action="/chat/new" method="post" style="margin-bottom:18px;">
-            <button type="submit" class="new-chat-btn">+ Yeni Sohbet</button>
-        </form>
-        
-        <h3>Geçmiş Sohbetler</h3>
-        <ul>
-            {% for chat in history %}
-                <li><a href="/chat/{{ chat.id }}">{{ chat.timestamp.strftime('%d.%m.%Y %H:%M') }}</a></li>
-            {% endfor %}
-        </ul>
+        <div class="card mb-3 shadow-sm">
+            <div class="card-header bg-white pb-2 pt-2"><strong>Geçmiş Sohbetler</strong></div>
+            <ul class="list-group list-group-flush">
+                {% if chats|length == 0 %}
+                    <li class="list-group-item text-muted">Henüz sohbet yok.</li>
+                {% else %}
+                    {% for chat in chats %}
+                        <li class="list-group-item px-3 py-2 {% if chat.id == current_chat_id %}active{% endif %}">
+                            <form method="post" action="/chat" style="display:inline;">
+                                <input type="hidden" name="select_chat_id" value="{{ chat.id }}" />
+                                <button type="submit" style="background:none;border:none;padding:0;color:inherit;cursor:pointer;width:100%;text-align:left;">
+                                    <span style="font-weight:bold;">Sohbet #{{ chat.id }}</span> <span class="text-muted small ms-2">{{ chat.created_at.strftime('%d.%m.%Y %H:%M') }}</span>
+                                </button>
+                            </form>
+                        </li>
+                    {% endfor %}
+                {% endif %}
+            </ul>
+        </div>
+
+        <div class="card mb-3 shadow-sm">
+            <div class="card-header bg-white pb-2 pt-2 d-flex justify-content-between align-items-center">
+                <strong>Odalarım</strong>
+                <a href="/rooms/create" class="btn btn-success btn-sm rounded-pill">+ Oda Oluştur</a>
+            </div>
+            <ul class="list-group list-group-flush">
+                {% for room in rooms %}
+                    <li class="list-group-item px-3 py-2">
+                        <a href="/rooms/{{ room.id }}" class="d-flex justify-content-between align-items-center text-decoration-none">
+                            <span>{{ room.name }}</span>
+                            {% if room.is_group %}<span class="badge bg-primary">Grup</span>{% else %}<span class="badge bg-secondary">Kişisel</span>{% endif %}
+                        </a>
+                    </li>
+                {% else %}
+                    <li class="list-group-item text-muted">Henüz odan yok</li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 
     <div class="main chat-main">
         <div class="chat-box" id="chat-box">
-            {% for chat in chats %}
-                <div class="message user-msg">{{ chat.user_input }}</div>
-                <div class="message ai-msg">{{ chat.ai_response }}</div>
-            {% endfor %}
+            {% if messages|length == 0 %}
+                <div class="text-muted text-center mt-5">Bu sohbette henüz mesaj yok.</div>
+            {% else %}
+                {% for msg in messages %}
+                    <div class="message user-msg">{{ msg.user_input }}</div>
+                    <div class="message ai-msg">{{ msg.ai_response }}</div>
+                {% endfor %}
+            {% endif %}
         </div>
-        
-        <form method="post" class="chat-form">
+
+        <form method="post" class="chat-form" action="/chat">
             <textarea name="user_input" rows="4" style="min-height:64px;" placeholder="Bugün nasıl hissediyorsun?" required></textarea>
             <button type="submit">Gönder</button>
         </form>
@@ -48,15 +109,30 @@
             <span class="close" id="closeProfile">&times;</span>
             <h2 style="margin-bottom:24px; font-size:2rem; color:#2563EB;">Kişisel Bilgiler</h2>
             <div style="background:#f9fbff; border-radius:14px; box-shadow:0 2px 12px rgba(37,99,235,0.07); padding:28px 18px; display:flex; flex-direction:column; gap:16px; align-items:flex-start; margin:auto;">
-                <div style="font-size:1.13rem;"><strong>Ad Soyad:</strong> <span style="color:#1E1E1E;">Gökhan Yılmaz</span></div>
-                <div style="font-size:1.13rem;"><strong>E-posta:</strong> <span style="color:#1E1E1E;">gokhan@example.com</span></div>
-                <div style="font-size:1.13rem;"><strong>Kayıt Tarihi:</strong> <span style="color:#1E1E1E;">01.01.2024</span></div>
-                <div style="font-size:1.13rem;"><strong>Üyelik Tipi:</strong> <span style="color:#1E1E1E;">Standart</span></div>
+                <div style="font-size:1.13rem;"><strong>Ad Soyad:</strong> <span style="color:#1E1E1E;">{{ user.fullname }}</span></div>
+                <div style="font-size:1.13rem;"><strong>E-posta:</strong> <span style="color:#1E1E1E;">{{ user.email }}</span></div>
+                <div style="font-size:1.13rem;"><strong>Kayıt Tarihi:</strong> <span style="color:#1E1E1E;">{{ user.created_at.strftime('%d.%m.%Y') if user.created_at else '' }}</span></div>
+                <div style="font-size:1.13rem;"><strong>Üyelik Tipi:</strong> <span style="color:#1E1E1E;">{{ user.membership_type }}</span></div>
             </div>
         </div>
     </div>
 
     <script src="/static/main.js"></script>
+    <script>
+        document.getElementById('profileBtn').onclick = function(e) {
+            e.preventDefault();
+            document.getElementById('profileModal').style.display = 'block';
+        };
+        document.getElementById('closeProfile').onclick = function() {
+            document.getElementById('profileModal').style.display = 'none';
+        };
+        window.onclick = function(event) {
+            var modal = document.getElementById('profileModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
 
 </body>
 </html>

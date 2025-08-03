@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Oda Oluştur{% endblock %}
+{% block content %}
+<div class="container py-4">
+    <div class="card p-4 mx-auto" style="max-width:500px;">
+        <h3 class="mb-3">Yeni Oda Oluştur</h3>
+        <form method="post" action="/rooms/create">
+            <div class="mb-3">
+                <label for="roomName" class="form-label">Oda Adı:</label>
+                <input type="text" id="roomName" name="name" class="form-control" placeholder="Oda adı" required>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="form-check-input" type="checkbox" name="is_group" value="1" id="is_group">
+                <label class="form-check-label" for="is_group">Grup Odası</label>
+            </div>
+            <div class="mb-3">
+                <label for="userSelect" class="form-label">Üye Seç (Birden Fazla):</label>
+                <select name="user_ids" id="userSelect" class="form-select" multiple required>
+                    {% for user in users %}
+                    <option value="{{ user.id }}">{{ user.fullname }} ({{ user.email }})</option>
+                    {% endfor %}
+                </select>
+                <div class="form-text">Ctrl/Command ile çoklu seçim yapabilirsin.</div>
+            </div>
+            <button type="submit" class="btn btn-success w-100">Oluştur</button>
+        </form>
+        <a href="/rooms" class="d-block mt-3">← Odalara Dön</a>
+    </div>
+</div>
+{% endblock %}
