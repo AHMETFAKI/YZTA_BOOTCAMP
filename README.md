@@ -211,7 +211,7 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 </details>
 
 
-## Sprint Review:
+### Sprint Review:
 
 - Arayüzün dinamikleştirilmesi: Form input'larının dinamik bağlanması ve JS ile etkileşimli alanların geliştirilmesi tamamlandı.
   
@@ -223,7 +223,7 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
   
 - Yapılanların raporlanması tamamlandı.
 
-## Sprint Retrospective:
+### Sprint Retrospective:
 
 - Geliştirme süreci boyunca arayüz dinamikleştirme ve chatbot entegrasyonunda karşılaşılan zorluklar değerlendirildi.
   
@@ -239,6 +239,16 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 ## Sprint 3 🚀
   
 ### Sprint Notları
+Projenin kullanıcı hikayeleri, Miro panosundaki backlog item'larının temelini oluşturmuştur. Her bir backlog kartı, "Bir kullanıcı olarak stresimi yönetmek için haftalık raporumu görmek istiyorum." gibi bir kullanıcı ihtiyacını veya "Stres seviyemi azaltmak için farklı bireylerle paylaşımlarda bulunmak istiyorum." gibi bir teknik gereksinimi temsil etmektedir. Projenin geliştirme süreci, doğrudan kullanıcı hikayelerini temel alarak şekillendi;  kullanıcının kendini ifade edebileceği Gemini API destekli bir sohbet motoru ve bu etkileşimleri takip edebileceği görsel bir haftalık stres raporu hayata geçirildi. Bireysel deneyimin ötesinde, "yalnız değilim" hissini pekiştirmek amacıyla kullanıcıların anonim olarak bağ kurabildiği topluluk sohbet odaları geliştirildi. Anlık desteğe ihtiyaç duyanlar için ise ruh haline göre kişiselleştirilmiş tavsiyeler sunan bir "Relax" modülü ve geçmiş konuşmaları saklayan localStorage tabanlı bir yapı eklendi. Sonuç olarak her bir özellik farklı bir kullanıcı ihtiyacını karşılayarak birbirini tamamlayan ve bütünsel bir dijital refah asistanı yaratan bir yapı oluşturdu.
+
+**Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
+
+**Tahmin Mantığı:** Proje boyunca tamamlanması hedeflenen toplam 300 puanlık bir backlog mevcuttu. Proje, her biri yaklaşık 100 puanlık iş yükü içeren 3 ana sprint'e bölünmüştür. Son aşama olan üçüncü sprint, projenin temel özelliklerini tamamlayarak MVP'yi (Minimum Uygulanabilir Ürün) ortaya çıkarmayı hedefleyen son 100 puanlık bölümden oluşmuştur. Proje sonunda toplam 260 puana ulaşılmıştır.
+
+**Backlog düzeni ve Story seçimleri:** Backlog'un önceliği CalmAI uygulamasını kullanıcıya değer sunan, çalışan bir final ürünü haline getirmekti. Görevler, sprint başında belirlenen hedeflere göre seçilmiştir. Miro panosundaki renk düzeni görev türlerini ayırt etmek için kullanılmıştır:
+ - Sarı item'lar: Altyapı, backend ve kurulum görevlerini (Veritabanı işlemleri, API hazırlıkları vb.).
+ - Mavi item'lar: Arayüz (Frontend) ve kullanıcı deneyimi (UX) ile ilgili görevleri (Ekran tasarımları, rapor grafiği, butonlar vb.).
+ - Yeşil item'lar: Doğrudan yapay zeka entegrasyonu ve anahtar özellik modüllerini (Gemini API entegrasyonu, topluluk sohbeti gibi).
 
 **Daily Scrum Toplantıları:**
  
@@ -296,15 +306,19 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 
 
 ### Sprint Review:
- - Topluluk Sohbet Alanı: Kullanıcıların anonim olarak katılabileceği, gerçek zamanlı mesajlaşma odaları oluşturuldu.
+ - Arayüz Dinamikleştirildi: Kullanıcı etkileşimini artırmak için form girişlerinin dinamik olarak bağlanması ve mesajlaşma gibi temel işlevlerin sorunsuz çalışması sağlandı.
+   
+ - Topluluk Sohbet Alanı:  Projenin en önemli sosyal özelliklerinden biri olan, kullanıcıların anonim olarak veya bir rumuzla katılabileceği, gerçek zamanlı "Mesajlaşma Odaları" başarıyla hayata geçirildi. Bu özellik, kullanıcıların birbirlerine destek olabileceği bir topluluk ortamı yaratmayı amaçlamaktadır.
 
- - Kişiselleştirilmiş Tavsiye Modülü: Kullanıcının ruh haline göre özelleştirilmiş günlük tavsiyeler ve müzik önerileri sunan bir sistem entegre edildi.
+ - Kişiselleştirilmiş Tavsiye ve Müzik Önerileri Sunuldu: Kullanıcının ruh haline göre özelleştirilmiş günlük tavsiyeler ve müzik önerileri sunan "Relax" sayfası tamamlandı. Bu içerikler, yönetimi kolay bir JSON dosyasından dinamik olarak çekilmektedir.
 
- - Haftalık Stres Raporu: Hafta boyunca girilen stres seviyeleri, kullanıcıya görsel bir grafikle rapor olarak sunuldu.
+ - Haftalık Stres Raporu Görselleştirildi: Kullanıcının hafta boyunca girdiği stres verileri, backend'den alınarak frontend'de anlamlı bir çizgi grafiği ile görselleştirildi. Bu sayede kullanıcı, duygusal durumundaki değişimleri kolayca takip edebilir hale geldi.
 
- - Veri Gizliliği ve Güvenlik: Kullanıcı verilerinin işlenmesine dair şeffaf bilgilendirme kutuları ve açıklamalar arayüze eklendi.
+ - Veri Gizliliği ve Güvenlik: Kullanıcı verilerinin nasıl işlendiğine dair şeffaf bilgilendirme kutuları, kullanıcı profili detayları ve alt bilgi açıklamaları arayüze eklenerek kullanıcı güveni ön planda tutuldu.
+   
+ - Proje Açık Kaynak Olarak Hazırlandı: Kod tabanı, dokümantasyonu ve README dosyası düzenlenerek projenin GitHub'da açık kaynak olarak yayınlanması için tüm hazırlıklar yapıldı.
 
- - Açık Kaynak ve Teslim Hazırlıkları: Proje, GitHub'da yayınlanmaya hazırlandı ve sunum hazırlıkları tamamlandı.
+ - Sunum ve Teslim Hazırlıkları:  Projenin canlı demosunu ve genel sunumunu içeren tüm teslimat materyalleri başarıyla hazırlandı.
 
 
 
