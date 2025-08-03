@@ -247,7 +247,7 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 
 - **Sprint Board Ekran Görüntüsü**:
   <p align="left">
-  <img src="assets/" alt="miro" width="1200" />
+  <img src="assets/mirosprint3.png" alt="miro" width="1200" />
 </p>
 
 <details>
