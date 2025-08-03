@@ -270,10 +270,6 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 <summary><h2>Ürünün Ekran Görüntüleri</h2></summary>
 
 <p align="left">
-  <img src="assets/kayıtekranı3.jpg" alt="Daily Scrum Görüntüsü 3" width="800" />
-</p>
-
-<p align="left">
   <img src="assets/sohbetekranı3.jpg" alt="Toplantı Ekran Görüntüsü" width="800" />
 </p>
 
@@ -287,6 +283,14 @@ Bu sprintin temel amacı, calmAI uygulamasının ana interaktif özelliklerini h
 
 <p align="left">
   <img src="assets/ruhhali3.jpg" alt="Sohbet Alanı Ekran Görüntüsü" width="800" />
+</p>
+
+<p align="left">
+  <img src="assets/odalar13.jpg" alt="Daily Scrum Görüntüsü 3" width="800" />
+</p>
+
+<p align="left">
+  <img src="assets/odalar3.jpg" alt="Daily Scrum Görüntüsü 3" width="800" />
 </p>
 
 </details>
